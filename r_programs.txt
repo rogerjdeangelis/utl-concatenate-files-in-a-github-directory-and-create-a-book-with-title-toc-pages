@@ -3,7 +3,7 @@
                                                                                                                               
                                                                                                                                                                            
   README.md                         # R-Programs                                                                              
-                                    R is a powerful and versatile programming language that is widely used for statistical    
+                                     R is a powerful and versatile programming language that is widely used for statistical   
                                     computing, data analysis and visualization. It provides a comprehensive set of tools and  
                                     libraries for handling various data types, performing complex calculations and creating   
                                     informative graphs. R's popularity stems from its flexibility, ease of use and extensive  
@@ -43,24 +43,24 @@
                                     print(c)                                                                                  
                                                                                                                                                                            
   Check Prime Number.R              is_prime <- function(num) {                                                               
-                                    if (num <= 1) {                                                                           
-                                    return(FALSE)  # Numbers less than or equal to 1 are not prime                            
-                                    }                                                                                         
-                                    if (num <= 3) {                                                                           
-                                    return(TRUE)   # 2 and 3 are prime numbers                                                
-                                    }                                                                                         
-                                    if (num %% 2 == 0 || num %% 3 == 0) {                                                     
-                                    return(FALSE)  # Numbers divisible by 2 or 3 are not prime                                
+                                      if (num <= 1) {                                                                         
+                                        return(FALSE)  # Numbers less than or equal to 1 are not prime                        
+                                      }                                                                                       
+                                      if (num <= 3) {                                                                         
+                                        return(TRUE)   # 2 and 3 are prime numbers                                            
+                                      }                                                                                       
+                                      if (num %% 2 == 0 || num %% 3 == 0) {                                                   
+                                        return(FALSE)  # Numbers divisible by 2 or 3 are not prime                            
                                                                                                                               
-                                    }                                                                                         
-                                    i <- 5                                                                                    
-                                    while (i * i <= num) {                                                                    
-                                    if (num %% i == 0 || num %% (i + 2) == 0) {                                               
-                                    return(FALSE)                                                                             
-                                    }                                                                                         
-                                    i <- i + 6                                                                                
-                                    }                                                                                         
-                                    return(TRUE)                                                                              
+                                      }                                                                                       
+                                      i <- 5                                                                                  
+                                      while (i * i <= num) {                                                                  
+                                        if (num %% i == 0 || num %% (i + 2) == 0) {                                           
+                                          return(FALSE)                                                                       
+                                        }                                                                                     
+                                        i <- i + 6                                                                            
+                                      }                                                                                       
+                                      return(TRUE)                                                                            
                                     }                                                                                         
                                                                                                                               
                                     # Get user input                                                                          
@@ -68,9 +68,9 @@
                                                                                                                               
                                     # Check if the number is prime                                                            
                                     if (is_prime(num)) {                                                                      
-                                    print(paste(num, "is a prime number."))                                                   
+                                      print(paste(num, "is a prime number."))                                                 
                                     } else {                                                                                  
-                                    print(paste(num, "is not a prime number."))                                               
+                                      print(paste(num, "is not a prime number."))                                             
                                                                                                                               
                                     }                                                                                         
                                                                                                                                                                            
@@ -78,7 +78,7 @@
                                     b<- 1L                                                                                    
                                     for (i in 2:a)                                                                            
                                     {                                                                                         
-                                    b=i*b                                                                                     
+                                      b=i*b                                                                                   
                                     }                                                                                         
                                     print(b)                                                                                  
                                                                                                                                                                            
@@ -96,7 +96,7 @@
   Multiplication Table.R            a<- as.integer(readline("Enter the Number:- "))                                           
                                     for(i in 1:10)                                                                            
                                     {                                                                                         
-                                    cat(a, "x", i, "=", a*i,"\n")                                                             
+                                      cat(a, "x", i, "=", a*i,"\n")                                                           
                                     }                                                                                         
                                                                                                                               
                                     # Define the size of the multiplication table                                             
@@ -109,7 +109,7 @@
                                     print(multiplication_table)                                                               
                                                                                                                                                                            
   README.md                         # R-Programs                                                                              
-                                    R is a powerful and versatile programming language that is widely used for statistical    
+                                     R is a powerful and versatile programming language that is widely used for statistical   
                                     computing, data analysis and visualization. It provides a comprehensive set of tools and  
                                     libraries for handling various data types, performing complex calculations and creating   
                                     informative graphs. R's popularity stems from its flexibility, ease of use and extensive  
@@ -186,7 +186,7 @@
                                     print(a, digit= 4)                                                                        
                                                                                                                               
                                     x <- matrix(c(2, NA, 5, NA, 8, NA, 22, 67, 43),                                           
-                                    nrow = 3, byrow = TRUE)                                                                   
+                                                nrow = 3, byrow = TRUE)                                                       
                                                                                                                               
                                     # na.print: indicates NA values output format                                             
                                                                                                                               

@@ -183,20 +183,20 @@
                                     a<-12                                                                                     
                                     if(is.integer(a))                                                                         
                                     {                                                                                         
-                                    print("a is integer")                                                                     
+                                      print("a is integer")                                                                   
                                     }else                                                                                     
                                     {                                                                                         
-                                    print("a is numeric")                                                                     
+                                      print("a is numeric")                                                                   
                                     }                                                                                         
                                                                                                                               
                                     x<-c("Ram","studies","R","Language")                                                      
                                     if("R"%in%x)# %in% used for searching a value in Vector                                   
                                     {                                                                                         
-                                    print("R is present in x")                                                                
+                                      print("R is present in x")                                                              
                                                                                                                               
                                     }else                                                                                     
                                     {                                                                                         
-                                    print("R is not present in x")                                                            
+                                      print("R is not present in x")                                                          
                                     }                                                                                         
                                                                                                                               
                                     # If-Else If Statements in R language                                                     
@@ -204,16 +204,16 @@
                                     age<-25                                                                                   
                                     if(age>60)                                                                                
                                     {                                                                                         
-                                    print("Senior Citizen")                                                                   
+                                      print("Senior Citizen")                                                                 
                                     }else if(age>20)                                                                          
                                     {                                                                                         
-                                    print("Adult")                                                                            
+                                      print("Adult")                                                                          
                                     }else if(age>12)                                                                          
                                     {                                                                                         
-                                    print("Teenager")                                                                         
+                                      print("Teenager")                                                                       
                                     }else                                                                                     
                                     {                                                                                         
-                                    print("Child")                                                                            
+                                      print("Child")                                                                          
                                     }                                                                                         
                                                                                                                               
                                                                                                                               
@@ -240,14 +240,14 @@
                                                                                                                               
                                     for(month in 1:12)                                                                        
                                     {                                                                                         
-                                    print(month)                                                                              
-                                    print(paste("MONTH NO.",month))                                                           
+                                      print(month)                                                                            
+                                      print(paste("MONTH NO.",month))                                                         
                                     }                                                                                         
                                                                                                                               
                                     year<-c("January","February","March","April","May","June","July","October","November")    
                                     for(month in year)                                                                        
                                     {                                                                                         
-                                    print(month)                                                                              
+                                      print(month)                                                                            
                                     }                                                                                         
                                                                                                                               
                                     # Next :- Skip Current Iteration but the Iteration goes on not terminated .               
@@ -255,23 +255,23 @@
                                     a<-1:5                                                                                    
                                     for(x in a)                                                                               
                                     {                                                                                         
-                                    if(x ==2)                                                                                 
-                                    {                                                                                         
-                                    next                                                                                      
-                                    }                                                                                         
-                                    print(x)                                                                                  
+                                      if(x ==2)                                                                               
+                                      {                                                                                       
+                                        next                                                                                  
+                                      }                                                                                       
+                                      print(x)                                                                                
                                     }                                                                                         
                                                                                                                               
                                     #Break :- Stops the execution of the iteration. Immediate Exit of Iteration .             
                                                                                                                               
                                     r<-2                                                                                      
                                     repeat{                                                                                   
-                                    print("Repeat")                                                                           
-                                    if (r==5)                                                                                 
-                                    {                                                                                         
-                                    break                                                                                     
-                                    }                                                                                         
-                                    r<-r+1                                                                                    
+                                      print("Repeat")                                                                         
+                                      if (r==5)                                                                               
+                                      {                                                                                       
+                                        break                                                                                 
+                                      }                                                                                       
+                                      r<-r+1                                                                                  
                                     }                                                                                         
                                                                                                                               
                                                                                                                               
@@ -282,12 +282,12 @@
                                     x<-1                                                                                      
                                     repeat                                                                                    
                                     {                                                                                         
-                                    print(a)                                                                                  
-                                    x=x+1                                                                                     
-                                    if(x>=5)                                                                                  
-                                    {                                                                                         
-                                    break                                                                                     
-                                    }                                                                                         
+                                      print(a)                                                                                
+                                      x=x+1                                                                                   
+                                      if(x>=5)                                                                                
+                                      {                                                                                       
+                                        break                                                                                 
+                                      }                                                                                       
                                     }                                                                                         
                                                                                                                               
                                                                                                                                                                            
@@ -297,8 +297,8 @@
                                     x<-1                                                                                      
                                     while(x<4)                                                                                
                                     {                                                                                         
-                                    print(a)                                                                                  
-                                    x<-x+1                                                                                    
+                                      print(a)                                                                                
+                                      x<-x+1                                                                                  
                                     }                                                                                         
                                                                                                                                                                            
   10. User-Defined Functions.R      # Take Input in R language                                                                
@@ -315,13 +315,13 @@
                                                                                                                               
                                     F1<-function(x=12,y)                                                                      
                                     {                                                                                         
-                                    print(x)                                                                                  
-                                    z=x*y                                                                                     
-                                    print(z)                                                                                  
-                                    for(a in x:y)                                                                             
-                                    {                                                                                         
-                                    print(a)                                                                                  
-                                    }                                                                                         
+                                      print(x)                                                                                
+                                      z=x*y                                                                                   
+                                      print(z)                                                                                
+                                      for(a in x:y)                                                                           
+                                      {                                                                                       
+                                        print(a)                                                                              
+                                      }                                                                                       
                                     }                                                                                         
                                                                                                                               
                                     a<-readline(prompt = "Enter number one ")                                                 
@@ -584,12 +584,12 @@
                                     # Creating the data frame                                                                 
                                                                                                                               
                                     student.data<-data.frame(                                                                 
-                                    roll_no. = c(1:4),                                                                        
-                                    student_name = c("Tosen","Aizen","Ichigo","Orihime"),                                     
-                                    marks = c(80,96,95,92),                                                                   
-                                    first_day = as.Date(c("2024-09-05","2024-09-01","2024-09-15"                              
-                                    ,"2024-09-16")),                                                                          
-                                    stringsAsFactors = FALSE                                                                  
+                                      roll_no. = c(1:4),                                                                      
+                                      student_name = c("Tosen","Aizen","Ichigo","Orihime"),                                   
+                                      marks = c(80,96,95,92),                                                                 
+                                      first_day = as.Date(c("2024-09-05","2024-09-01","2024-09-15"                            
+                                                            ,"2024-09-16")),                                                  
+                                      stringsAsFactors = FALSE                                                                
                                     )                                                                                         
                                                                                                                               
                                     print(student.data)                                                                       
@@ -621,7 +621,7 @@
                                     # Add Column                                                                              
                                                                                                                               
                                     b<-c("Shinigami+Hollow","Shinigami+Hollow",                                               
-                                    "Shinigami+Hollow+Fullbring+Quincy","Fullbring")                                          
+                                         "Shinigami+Hollow+Fullbring+Quincy","Fullbring")                                     
                                     cbind(student.data,Specialisation = b)                                                    
                                                                                                                               
                                     # Delete Row                                                                              
@@ -646,21 +646,21 @@
                                     # The levels are unique values that define the possible categories.                       
                                                                                                                               
                                     week<-c("Monday","Tuesday","Wednesday","Thursday","Friday",                               
-                                    "Saturday","Sunday")                                                                      
+                                            "Saturday","Sunday")                                                              
                                     is.factor(week)                                                                           
                                                                                                                               
                                     # Declaring Factor                                                                        
                                                                                                                               
                                     print(factor(week))                                                                       
                                     factor(week,levels = c("Monday","Tuesday","Wednesday","Thursday","Friday",                
-                                    "Saturday","Sunday"),                                                                     
-                                    labels = c("M","T","W","T","F","S","S"))                                                  
+                                                          "Saturday","Sunday"),                                               
+                                           labels = c("M","T","W","T","F","S","S"))                                           
                                                                                                                               
                                     # Remove Levels                                                                           
                                                                                                                               
                                     factor(week,levels = c("Monday","Tuesday","Wednesday",                                    
-                                    "Thursday","Friday","Saturday","Sunday"),                                                 
-                                    exclude = c("Saturday","Sunday"))                                                         
+                                                           "Thursday","Friday","Saturday","Sunday"),                          
+                                           exclude = c("Saturday","Sunday"))                                                  
                                                                                                                               
                                     # Generate Factor Levels                                                                  
                                                                                                                               
@@ -735,11 +735,11 @@
                                     library("RMySQL")                                                                         
                                                                                                                               
                                     a <- dbConnect(MySQL(),                                                                   
-                                    username = "root",                                                                        
-                                    password = "SaurabhSSB",                                                                  
-                                    host = "localhost", # Not Necessary has default value                                     
-                                    port = 3306, # Not Necessary has default value                                            
-                                    dbname = "Terminator"                                                                     
+                                                   username = "root",                                                         
+                                                   password = "SaurabhSSB",                                                   
+                                                   host = "localhost", # Not Necessary has default value                      
+                                                   port = 3306, # Not Necessary has default value                             
+                                                   dbname = "Terminator"                                                      
                                     )                                                                                         
                                                                                                                               
                                     dbListTables(a)                                                                           
@@ -909,7 +909,7 @@
                                     data %>% arrange(name) %>% head # Properly Arranged                                       
                                                                                                                               
                                     data %>% select(name , survived , age) %>%                                                
-                                    arrange(survived,age)%>%filter(age>15)%>%head                                             
+                                      arrange(survived,age)%>%filter(age>15)%>%head                                           
                                                                                                                               
                                     data<- data %>% mutate(p_a_ratio = pclass / age) %>% head                                 
                                                                                                                               

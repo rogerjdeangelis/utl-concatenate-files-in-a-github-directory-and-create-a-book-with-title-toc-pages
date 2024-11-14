@@ -3,7 +3,7 @@
                                                                                                                               
                                                                                                                                                                            
   README.md                         # A-Roadmap-to-Python-Mastery                                                             
-                                    These Python files provide a foundational understanding of essential Basics of Python     
+                                     These Python files provide a foundational understanding of essential Basics of Python    
                                     programming language .                                                                    
                                                                                                                                                                            
 2. CONTENTS                                                                                                                                                                
@@ -193,13 +193,13 @@
                                     # Logical Operators                                                                       
                                                                                                                               
                                     if( a>1 and b==2):                                                                        
-                                    print(" And is working")                                                                  
+                                        print(" And is working")                                                              
                                                                                                                               
                                     if( a>1 or b<2):                                                                          
-                                    print(" If is working")                                                                   
+                                        print(" If is working")                                                               
                                                                                                                               
                                     if (not( a<1 and b>2)):                                                                   
-                                    print(" Not is working")                                                                  
+                                        print(" Not is working")                                                              
                                                                                                                               
                                     # Bitwise Operators                                                                       
                                                                                                                               
@@ -316,154 +316,154 @@
                                     a= input("Enter name:- ")                                                                 
                                     b= "power"                                                                                
                                     if(type(a)== type(b)):                                                                    
-                                    print("String ")                                                                          
+                                       print("String ")                                                                       
                                                                                                                               
                                     # If- else Loop                                                                           
                                                                                                                               
                                     a= int(input("Enter your age:- "))                                                        
                                     if(a>18):                                                                                 
-                                    print("You can Vote")                                                                     
+                                      print("You can Vote")                                                                   
                                     else:                                                                                     
-                                    print("You cannot Vote")                                                                  
+                                      print("You cannot Vote")                                                                
                                                                                                                               
                                     # If- elif Loop                                                                           
                                                                                                                               
                                     Selling_Price = int(input("Enter Selling Price of Your Product:- "))                      
                                     Cost_Price = int(input("Enter Cost Price of Your Product:- "))                            
                                     if (Selling_Price< Cost_Price):                                                           
-                                    print("Profit ")                                                                          
+                                        print("Profit ")                                                                      
                                     elif(Selling_Price== Cost_Price):                                                         
-                                    print("Nothing Gained")                                                                   
+                                        print("Nothing Gained")                                                               
                                     else:                                                                                     
-                                    print("Loss")                                                                             
+                                        print("Loss")                                                                         
                                                                                                                               
                                     # Nested If Loop                                                                          
                                                                                                                               
                                     number = int(input("Enter any number:- "))                                                
                                     if (number < 0):                                                                          
-                                    print("Negative Number")                                                                  
+                                        print("Negative Number")                                                              
                                     elif (number > 0):                                                                        
-                                    print("Positive Number")                                                                  
-                                    if (number <= 10):                                                                        
-                                    print("Number in range 1-10")                                                             
-                                    elif (number > 10 and number <= 20):                                                      
-                                    print("Number in range 11-20")                                                            
+                                        print("Positive Number")                                                              
+                                        if (number <= 10):                                                                    
+                                            print("Number in range 1-10")                                                     
+                                        elif (number > 10 and number <= 20):                                                  
+                                            print("Number in range 11-20")                                                    
+                                        else:                                                                                 
+                                            print("Number is greater than 20")                                                
                                     else:                                                                                     
-                                    print("Number is greater than 20")                                                        
-                                    else:                                                                                     
-                                    print("Number is zero")                                                                   
+                                        print("Number is zero")                                                               
                                                                                                                                                                            
   06. Match Case.py                  Match Case                                                                               
                                     General Syntax for Match- Case                                                            
                                     match value:                                                                              
-                                    case pattern1:                                                                            
-                                    # Code to execute if value matches pattern1                                               
-                                    case pattern2:                                                                            
-                                    # Code to execute if value matches pattern2                                               
-                                    case _:                                                                                   
-                                    # Code to execute if value doesn't match any previous patterns                            
+                                        case pattern1:                                                                        
+                                            # Code to execute if value matches pattern1                                       
+                                        case pattern2:                                                                        
+                                            # Code to execute if value matches pattern2                                       
+                                        case _:                                                                               
+                                            # Code to execute if value doesn't match any previous patterns                    
                                                                                                                               
                                      Match Case                                                                               
                                     x = int(input("Enter Number: "))                                                          
                                     # x is the variable to match                                                              
                                     match x:                                                                                  
-                                    # if x is 0                                                                               
-                                    case 0:                                                                                   
-                                    print("x is zero")                                                                        
-                                    # case with if-condition                                                                  
-                                    case 8 if x % 2 == 0:                                                                     
-                                    print("x % 2 == 0 and case is 8")                                                         
-                                    # Empty case with if-condition                                                            
-                                    case _ if x < 10:                                                                         
-                                    print("x is < 10")                                                                        
-                                    case _ if x!=90:                                                                          
-                                    print(x, "is not 90")                                                                     
-                                    case _ if x%3!=0:                                                                         
-                                    print(x, "is not 80")                                                                     
-                                    case _: # It is basically an else.                                                        
-                                    print(x)                                                                                  
+                                        # if x is 0                                                                           
+                                        case 0:                                                                               
+                                            print("x is zero")                                                                
+                                        # case with if-condition                                                              
+                                        case 8 if x % 2 == 0:                                                                 
+                                            print("x % 2 == 0 and case is 8")                                                 
+                                        # Empty case with if-condition                                                        
+                                        case _ if x < 10:                                                                     
+                                            print("x is < 10")                                                                
+                                        case _ if x!=90:                                                                      
+                                            print(x, "is not 90")                                                             
+                                        case _ if x%3!=0:                                                                     
+                                            print(x, "is not 80")                                                             
+                                        case _: # It is basically an else.                                                    
+                                            print(x)                                                                          
                                                                                                                                                                            
   07. For loop.py                   name = 'Saurabh'                                                                          
                                     for i in name:                                                                            
-                                    print(i, end=", ")                                                                        
+                                        print(i, end=", ")                                                                    
                                                                                                                               
                                     Directions= ["North ", "South", "East ", "West"]                                          
                                     for i in Directions:                                                                      
-                                    print("Direction", i, end= ",")                                                           
+                                        print("Direction", i, end= ",")                                                       
                                                                                                                               
                                     for x in range(5):                                                                        
-                                    print(x)                                                                                  
+                                        print(x)                                                                              
                                                                                                                               
                                     for k in range(2,8):                                                                      
-                                    print(k)                                                                                  
+                                        print(k)                                                                              
                                                                                                                                                                            
   08. While Loops.py                # While Loops                                                                             
                                                                                                                               
                                     number= 5                                                                                 
                                     while (number > 0):                                                                       
-                                    print(number)                                                                             
-                                    number= number - 1                                                                        
+                                      print(number)                                                                           
+                                      number= number - 1                                                                      
                                                                                                                               
                                     # Else with While Loop                                                                    
                                                                                                                               
                                     x =10                                                                                     
                                     while (x > 2):                                                                            
-                                    print(x)                                                                                  
-                                    x = x - 1                                                                                 
+                                        print(x)                                                                              
+                                        x = x - 1                                                                             
                                     else:                                                                                     
-                                    print('counter is 0')                                                                     
+                                        print('counter is 0')                                                                 
                                                                                                                               
                                     # Do- While loop                                                                          
                                                                                                                               
                                     while True:                                                                               
-                                    number = int(input("Enter a positive number: "))                                          
-                                    print(number)                                                                             
-                                    if not number > 0:                                                                        
-                                    break                                                                                     
+                                      number = int(input("Enter a positive number: "))                                        
+                                      print(number)                                                                           
+                                      if not number > 0:                                                                      
+                                        break                                                                                 
                                                                                                                                                                            
   09. Break and Continue.py         # Break                                                                                   
                                                                                                                               
                                     for i in range(1,10,1):                                                                   
-                                    print(i ,end=" ")                                                                         
-                                    if(i==5):                                                                                 
-                                    break                                                                                     
-                                    else:                                                                                     
-                                    print("Keep Moving")                                                                      
+                                        print(i ,end=" ")                                                                     
+                                        if(i==5):                                                                             
+                                            break                                                                             
+                                        else:                                                                                 
+                                            print("Keep Moving")                                                              
                                     print("Understood Break ")                                                                
                                                                                                                               
                                     i = 0                                                                                     
                                     while True:                                                                               
-                                    print(i)                                                                                  
-                                    i = i + 1                                                                                 
-                                    if(i%10 == 0):                                                                            
-                                    break                                                                                     
+                                      print(i)                                                                                
+                                      i = i + 1                                                                               
+                                      if(i%10 == 0):                                                                          
+                                        break                                                                                 
                                                                                                                               
                                     # Continue                                                                                
                                                                                                                               
                                     for i in [2,3,4,6,8,12]:                                                                  
-                                    if (i%2!=0):                                                                              
-                                    continue                                                                                  
-                                    print(i)                                                                                  
+                                        if (i%2!=0):                                                                          
+                                            continue                                                                          
+                                        print(i)                                                                              
                                                                                                                               
                                                                                                                               
                                     def even_odd(number):                                                                     
-                                    if number%2==0:                                                                           
-                                    return  f"{number} is even"                                                               
-                                    else:                                                                                     
-                                    return f"{number} is odd"                                                                 
+                                        if number%2==0:                                                                       
+                                            return  f"{number} is even"                                                       
+                                        else:                                                                                 
+                                            return f"{number} is odd"                                                         
                                     if __name__ == "__main__":                                                                
-                                    try:                                                                                      
-                                    user_input=input("enter a number")                                                        
-                                    if user_input:                                                                            
-                                    user_input=int(user_input)                                                                
-                                    result= even_odd(user_input)                                                              
-                                    print(result)                                                                             
-                                    else:                                                                                     
-                                    print("No inupt provided")                                                                
-                                    except ValueError:                                                                        
-                                    print("Enter a valid integer")                                                            
-                                    except EOFError:                                                                          
-                                    print("No input detected")                                                                
+                                        try:                                                                                  
+                                            user_input=input("enter a number")                                                
+                                            if user_input:                                                                    
+                                                user_input=int(user_input)                                                    
+                                                result= even_odd(user_input)                                                  
+                                                print(result)                                                                 
+                                            else:                                                                             
+                                                print("No inupt provided")                                                    
+                                        except ValueError:                                                                    
+                                            print("Enter a valid integer")                                                    
+                                        except EOFError:                                                                      
+                                            print("No input detected")                                                        
                                                                                                                                                                            
   10. Functions.py                   Functions                                                                                
                                     Function:- A function is a block of code that performs a specific task whenever it is     
@@ -478,20 +478,20 @@
                                      Functions                                                                                
                                                                                                                               
                                     def Out():                                                                                
-                                    print("No Parameters Required")                                                           
+                                      print("No Parameters Required")                                                         
                                     def Add(a, b): # Here a and b are Parameters and Arguments are passed to these Parameters 
-                                    Sum = (a+b)                                                                               
-                                    print(Sum)                                                                                
+                                      Sum = (a+b)                                                                             
+                                      print(Sum)                                                                              
                                     def Bigger(a, b):                                                                         
-                                    if(a>b):                                                                                  
-                                    print("First Number is Bigger")                                                           
-                                    else:                                                                                     
-                                    print("Second number is Bigger")                                                          
+                                      if(a>b):                                                                                
+                                        print("First Number is Bigger")                                                       
+                                      else:                                                                                   
+                                        print("Second number is Bigger")                                                      
                                     def Small(a, b):                                                                          
-                                    if(a>b):                                                                                  
-                                    print("Second Number is Smaller")                                                         
-                                    else:                                                                                     
-                                    print("First Number is Smaller")                                                          
+                                      if(a>b):                                                                                
+                                        print("Second Number is Smaller")                                                     
+                                      else:                                                                                   
+                                        print("First Number is Smaller")                                                      
                                                                                                                               
                                                                                                                               
                                     a= 12                                                                                     
@@ -517,7 +517,7 @@
                                      Functions                                                                                
                                                                                                                               
                                     def Add(a= 5, b= 7):                                                                      
-                                    print("Sum is:- ",a+b)                                                                    
+                                      print("Sum is:- ",a+b)                                                                  
                                     Add()                                                                                     
                                                                                                                               
                                      Functions                                                                                
@@ -527,24 +527,24 @@
                                      Functions                                                                                
                                                                                                                               
                                     def Multiplication(a, b, c):                                                              
-                                    print("a= ", a, "b= ", b, "c= ", c)                                                       
-                                    print("Product is ", a*b*c)                                                               
+                                        print("a= ", a, "b= ", b, "c= ", c)                                                   
+                                        print("Product is ", a*b*c)                                                           
                                     Multiplication(c= 12, b= 15, a= 11)                                                       
                                                                                                                               
                                      Functions                                                                                
-                                    Variable-length arguments:- Used to pass more arguments than defined in the actual        
+                                     Variable-length arguments:- Used to pass more arguments than defined in the actual       
                                     function.                                                                                 
                                      Functions                                                                                
                                     # Arbitrary Arguments                                                                     
                                                                                                                               
                                     def name(*credit):                                                                        
-                                    print("Hi,\n", credit[0], credit[1], credit[2])                                           
+                                        print("Hi,\n", credit[0], credit[1], credit[2])                                       
                                     name("Roshan ", "Rihan ", "Reetha ")                                                      
                                                                                                                               
                                     # Keyword Arbitrary Arguments                                                             
                                                                                                                               
                                     def name(**debit):                                                                        
-                                    print("Hi,\n", debit["debitor1"], debit["debitor3"], debit["debitor3"])                   
+                                        print("Hi,\n", debit["debitor1"], debit["debitor3"], debit["debitor3"])               
                                     name(debitor1 = "Yamla ", debitor2 = "Pagla ", debitor3 = "Deewana ")                     
                                                                                                                               
                                      Functions                                                                                
@@ -554,7 +554,7 @@
                                      Functions                                                                                
                                                                                                                               
                                     def Student(Name, Class, Roll_No):                                                        
-                                    print("Hello,\n", Name, Class, Roll_No)                                                   
+                                        print("Hello,\n", Name, Class, Roll_No)                                               
                                     Student(Name= "Hermione Granger", Class= "First-Year Magic Student ", Roll_No= 3)         
                                                                                                                               
                                     # Return Statement                                                                        
@@ -564,7 +564,7 @@
                                      Functions                                                                                
                                                                                                                               
                                     def Advice(a):                                                                            
-                                    return "Honesty is the best " + a + "!"                                                   
+                                      return "Honesty is the best " + a + "!"                                                 
                                                                                                                               
                                     Saying = Advice("Policy")                                                                 
                                     print(Saying)                                                                             
@@ -572,9 +572,9 @@
                                     # Docstring : String Literals used to define a function, method, class or module          
                                                                                                                               
                                     def Multiplication(a,b):                                                                  
-                                    '''This function takes two integers and the product of the two number is given as         
+                                      '''This function takes two integers and the product of the two number is given as       
                                     output'''                                                                                 
-                                    print(a*b)                                                                                
+                                      print(a*b)                                                                              
                                     Multiplication(4,6)                                                                       
                                     print(Multiplication.__doc__)                                                             
                                                                                                                               
@@ -601,12 +601,12 @@
                                     print(a[-1])                                                                              
                                                                                                                               
                                     if 't' in a[0]:                                                                           
-                                    print("Present")                                                                          
+                                        print("Present")                                                                      
                                     else:                                                                                     
-                                    print("Absent")                                                                           
+                                        print("Absent")                                                                       
                                                                                                                               
                                     for i in a[0:3:2]:                                                                        
-                                    print(i,end='.')                                                                          
+                                        print(i,end='.')                                                                      
                                                                                                                               
                                     j=2                                                                                       
                                     x=[i+j for i in range(6) if i<5]                                                          
@@ -677,13 +677,13 @@
                                     print(b)                                                                                  
                                                                                                                               
                                     for i in b:                                                                               
-                                    print(i,end=",")                                                                          
+                                        print(i,end=",")                                                                      
                                     print("end")                                                                              
                                                                                                                               
                                     if 2 in b:                                                                                
-                                    print(f"Yes {2*1} is present in b")                                                       
+                                        print(f"Yes {2*1} is present in b")                                                   
                                     else:                                                                                     
-                                    print(f"No {2*1} is not present in b")                                                    
+                                        print(f"No {2*1} is not present in b")                                                
                                                                                                                               
                                     # Manipulation                                                                            
                                                                                                                               
@@ -732,9 +732,9 @@
                                     # Key- Value Pair having , in between and enclosed in {}                                  
                                                                                                                               
                                     a={                                                                                       
-                                    "Ram": "Mediator",                                                                        
-                                    "Dhoni": "Marketing",                                                                     
-                                    "Shyam": "Client"                                                                         
+                                        "Ram": "Mediator",                                                                    
+                                        "Dhoni": "Marketing",                                                                 
+                                        "Shyam": "Client"                                                                     
                                     }                                                                                         
                                                                                                                               
                                     print(a["Dhoni"])                                                                         
@@ -747,11 +747,11 @@
                                     del a["Ram"]                                                                              
                                                                                                                               
                                     for x,y in a.items():                                                                     
-                                    print(f"The way to print {x} along with the right {y} consistency is key.")               
+                                        print(f"The way to print {x} along with the right {y} consistency is key.")           
                                                                                                                               
                                     b={                                                                                       
-                                    "Hari":"Task",                                                                            
-                                    "Mohan":"Analyst"                                                                         
+                                        "Hari":"Task",                                                                        
+                                        "Mohan":"Analyst"                                                                     
                                     }                                                                                         
                                     a.update(b)                                                                               
                                     print(a)                                                                                  
@@ -760,5 +760,5 @@
                                     del b                                                                                     
                                                                                                                                                                            
   README.md                         # A-Roadmap-to-Python-Mastery                                                             
-                                    These Python files provide a foundational understanding of essential Basics of Python     
+                                     These Python files provide a foundational understanding of essential Basics of Python    
                                     programming language .                                                                    

@@ -44,7 +44,7 @@
                                     # legend(x,y=NULL,legend,fill,col,bg) - General Syntax                                    
                                                                                                                               
                                     legend("topright",c("Cherry","Banana","Apple","Mango"),cex=0.9,                           
-                                    fill=colours)                                                                             
+                                           fill=colours)                                                                      
                                                                                                                               
                                     # 3-D Pie Chart                                                                           
                                     # install.packages("plotrix") - First time only                                           
@@ -59,7 +59,7 @@
                                     pie_percent <- round(100*c/sum(c),1)                                                      
                                     pie3D(c,labels = labelsb,main="Direction",col = rainbow(length(c)))                       
                                     legend("topright",legend = labelsb,cex=0.6,                                               
-                                    fill=rainbow(length(c)))                                                                  
+                                           fill=rainbow(length(c)))                                                           
                                                                                                                                                                            
   2. Bar Chart.R                    # Bar Chart in R language                                                                 
                                                                                                                               
@@ -69,7 +69,7 @@
                                     a2 <- c(15,18,19,21)                                                                      
                                     a3 <- c("East","West","North","South")                                                    
                                     barplot(a2,names.arg = a3,xlab = "Direction",ylab = "No. of People",col = "red",          
-                                    main = "People coming form a certain Direction",border = "black")                         
+                                            main = "People coming form a certain Direction",border = "black")                 
                                                                                                                               
                                     # Group Bar Chart & Stacked Bar Chart                                                     
                                                                                                                               
@@ -77,7 +77,7 @@
                                     day <- c("Morning","Afternoon","Night")                                                   
                                     values <- matrix(c(20,36,45,44,27,28,22,32,19,25,33,31,42,24,37),nrow=3,ncol=5,byrow=TRUE)
                                     barplot(values,main="Total work done on certain days",names.arg = weeks,xlab="weeks",     
-                                    ylab = "day",col=c("blue","green","red"))                                                 
+                                            ylab = "day",col=c("blue","green","red"))                                         
                                     legend("topright", day , cex=0.6, fill = c("blue","green","red"))                         
                                                                                                                                                                            
   3. Histogram.R                    # Histogram in R language                                                                 
@@ -89,7 +89,7 @@
                                     # Use of xlim and ylim parameter                                                          
                                                                                                                               
                                     hist(a,xlab = "Age", ylab= "Frequecy", col= "blue", border= "red",                        
-                                    xlim=  c(10,50), ylim= c(0,5), breaks= 10)                                                
+                                         xlim=  c(10,50), ylim= c(0,5), breaks= 10)                                           
                                                                                                                               
                                                                                                                                                                            
   4. Line Graph.R                   # Line Graph in R language                                                                
@@ -128,8 +128,8 @@
                                     # between 15 and 30                                                                       
                                                                                                                               
                                     plot( x= data$wt, y= data$mpg,xlab= "weight", ylab= "Mileage",                            
-                                    xlim= c(2.5, 5), ylim= c(15, 30),                                                         
-                                    main= "Weight v/s Mileage")                                                               
+                                          xlim= c(2.5, 5), ylim= c(15, 30),                                                   
+                                          main= "Weight v/s Mileage")                                                         
                                                                                                                               
                                     # Scatter Plot                                                                            
                                     # install.packages("ggplot2") - First time only                                           
@@ -147,14 +147,14 @@
                                     boxplot(mtcars$hp)                                                                        
                                                                                                                               
                                     boxplot(mtcars$hp, main= "Data", xlab= "X- Axis", ylab= "Y- Axis", col= "yellow",         
-                                    border= "red", horizontal= TRUE, notch= TRUE)                                             
+                                            border= "red", horizontal= TRUE, notch= TRUE)                                     
                                                                                                                               
                                     boxplot(mpg ~ cyl, data= mtcars, xlab= "Quantity", ylab= "Miles", col= "yellow",          
-                                    border= "red")                                                                            
+                                            border= "red")                                                                    
                                                                                                                               
                                     boxplot(mpg ~ cyl, data= mtcars, xlab= "Quantity", ylab= "Miles", main="Box",             
-                                    notch= TRUE, varwidth= TRUE, col= c("red", "yellow", "blue"), border= "green",            
-                                    names= c("High","Medium","Low"))                                                          
+                                            notch= TRUE, varwidth= TRUE, col= c("red", "yellow", "blue"), border= "green",    
+                                            names= c("High","Medium","Low"))                                                  
                                                                                                                                                                            
   README.md                         # Data-Visualisation-in-R                                                                 
                                     Data visualization is the graphical representation of data. It involves transforming data 
