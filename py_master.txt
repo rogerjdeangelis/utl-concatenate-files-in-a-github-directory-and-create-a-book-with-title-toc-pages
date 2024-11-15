@@ -1,764 +1,764 @@
-                                                                                                                                                                           
-1. README                                                                                                                                                                  
-                                                                                                                              
-                                                                                                                                                                           
-  README.md                         # A-Roadmap-to-Python-Mastery                                                             
-                                     These Python files provide a foundational understanding of essential Basics of Python    
-                                    programming language .                                                                    
-                                                                                                                                                                           
-2. CONTENTS                                                                                                                                                                
-                                                                                                                              
-                                                                                                                                                                           
-  01. Getting familiar with python  # Input                                                                                   
-                                                                                                                                                                           
-  02. Variables and Data Types.py   # Variables are like Containers that hold data                                            
-                                                                                                                                                                           
-  03. Operators.py                  # Operators:- signs or keywords used to perform specific operation on multiple values or  
-                                    variables.                                                                                
-                                                                                                                                                                           
-  04. Strings.py                    # Anything that is between single or double quotation marks is string.                    
-                                                                                                                                                                           
-  05. If- elif- else.py              If- elif- else                                                                           
-                                                                                                                                                                           
-  06. Match Case.py                  Match Case                                                                               
-                                                                                                                                                                           
-  07. For loop.py                   name = 'Saurabh'                                                                          
-                                                                                                                                                                           
-  08. While Loops.py                # While Loops                                                                             
-                                                                                                                                                                           
-  09. Break and Continue.py         # Break                                                                                   
-                                                                                                                                                                           
-  10. Functions.py                   Functions                                                                                
-                                                                                                                                                                           
-  11. List.py                       # List is an ordered collection of data that stores mutiple values.                       
-                                                                                                                                                                           
-  12. Tuple.py                      # Tuple is an ordered collection of data that stores mutiple values.                      
-                                                                                                                                                                           
+                                                                
+1. README
+
+                                                                
+  README.md                         # A-Roadmap-to-Python-Mastery
+                                     These Python files provide a foundational understanding of essential Basics of Python
+                                    programming language .
+                                                                
+2. CONTENTS
+
+                                                                
+  01. Getting familiar with python  # Input
+                                                                
+  02. Variables and Data Types.py   # Variables are like Containers that hold data
+                                                                
+  03. Operators.py                  # Operators:- signs or keywords used to perform specific operation on multiple values or
+                                    variables.
+                                                                
+  04. Strings.py                    # Anything that is between single or double quotation marks is string.
+                                                                
+  05. If- elif- else.py              If- elif- else
+                                                                
+  06. Match Case.py                  Match Case
+                                                                
+  07. For loop.py                   name = 'Saurabh'
+                                                                
+  08. While Loops.py                # While Loops
+                                                                
+  09. Break and Continue.py         # Break
+                                                                
+  10. Functions.py                   Functions
+                                                                
+  11. List.py                       # List is an ordered collection of data that stores mutiple values.
+                                                                
+  12. Tuple.py                      # Tuple is an ordered collection of data that stores mutiple values.
+                                                                
   13. Set.py                        # Set is an unordered collection of data, it stored multiple entries in a single variable.
-                                                                                                                                                                           
-  14. Dictionary.py                 # Dictionary is an ordered collection of data that stores multiple values                 
-                                                                                                                                                                           
-  README.md                         # A-Roadmap-to-Python-Mastery                                                             
-                                                                                                                                                                           
-3. PAGES                                                                                                                                                                   
-                                                                                                                              
-                                                                                                                                                                           
-  01. Getting familiar with python  # Input                                                                                   
+                                                                
+  14. Dictionary.py                 # Dictionary is an ordered collection of data that stores multiple values
+                                                                
+  README.md                         # A-Roadmap-to-Python-Mastery
+                                                                
+3. PAGES
+
+                                                                
+  01. Getting familiar with python  # Input
                                     a= input("Enter the value:- ")# Don't forget to give input each time this code is executed
-                                    b= int(input("Only Integer else there will be an error:- "))                              
-                                    c= float(input("Only Float else there will be an error:- "))                              
-                                                                                                                              
-                                    # Output                                                                                  
-                                    print(a)                                                                                  
-                                    print(b+ c)                                                                               
-                                    print(5+2)                                                                                
-                                    print("Python")                                                                           
-                                    print(7,8.12,"Python ", sep= "-", end= "$")                                               
-                                                                                                                              
-                                    # Multiple Output                                                                         
-                                    print(a,7,8,6+5)                                                                          
-                                                                                                                              
-                                    # Comments - lines that will not be executed                                              
-                                                                                                                              
-                                    # Single- Line Comment                                                                    
-                                                                                                                              
-                                     Getting familiar with python                                                             
-                                    Multi- Line Comments used to comment multiple line,                                       
-                                    instead of using # each time.                                                             
-                                     Getting familiar with python                                                             
-                                    """                                                                                       
-                                    We can also use Double- Quoted-                                                           
-                                    Three- inverted- commas                                                                   
-                                    """                                                                                       
-                                                                                                                              
-                                    # Escape Sequence Character- For functions that normally cannot be used in strings        
-                                                                                                                              
-                                    print("This is for escape sequence\t \" We can use\" symbol too\n Escape Sequence")       
-                                                                                                                                                                           
-  02. Variables and Data Types.py   # Variables are like Containers that hold data                                            
-                                    # Variables can be updated i.e. they are dynamic not static                               
-                                                                                                                              
-                                    a1=1                                                                                      
-                                    B1=2                                                                                      
-                                    _c1=3                                                                                     
-                                    # not 1c_=4                                                                               
-                                    print( a1, B1, _c1)                                                                       
-                                    print( "This is type of a1", type( a1))                                                   
-                                                                                                                              
-                                    # Data type specifies the type of value a variable holds.                                 
-                                                                                                                              
-                                     Variables and Data Types                                                                 
-                                    5 types of data types                                                                     
-                                    1. Numeric:- int, float, complex                                                          
-                                    2. String                                                                                 
-                                    3. Boolean:- True, False                                                                  
-                                    4. Sequenced:- list- [], tuple- ()-> list is mutable( can be modified) and tuple is       
-                                    immutable( cannot be modified)                                                            
-                                    5. Mapped:- dictionary                                                                    
-                                     Variables and Data Types                                                                 
-                                    print("Numeric Data Type= ",3," ",7.83," ",6+2j)                                          
-                                    print("String Data Type= ","This is Python String",'And we are learning Programming')     
-                                    print("Boolean Data Type= ",True)                                                         
-                                    print("Sequenced Data Type= ",[12,15,16,18]," ",(11,14,17,19))                            
-                                    print("Dictionary= ", {"name": "Rohan", "age": 25, "Student": True, "Stream": "MBA"})     
-                                                                                                                              
-                                    # Explicit typecasting- Done by user                                                      
-                                    string = "15"                                                                             
-                                    number = 7                                                                                
-                                    string_number = int(string) # throws an error if the string is not a valid integer        
-                                    sum= number + string_number                                                               
-                                    print("The Sum of both the numbers is: ", sum)                                            
-                                                                                                                              
-                                    # Implicit type casting- Done by Python automatically                                     
-                                                                                                                              
-                                    # Python converts a to int                                                                
-                                    a = 7                                                                                     
-                                    print(type(a))                                                                            
-                                                                                                                              
-                                    # Python converts b to float                                                              
-                                    b = 3.0                                                                                   
-                                    print(type(b))                                                                            
-                                                                                                                              
-                                    # Python converts c to float                                                              
-                                    c = a + b                                                                                 
-                                    print(c)                                                                                  
-                                    print(type(c))                                                                            
-                                                                                                                              
-                                    # Global and Local Variables                                                              
-                                    # Variables that are defined inside a function body have a local scope, and those defined 
-                                    outside have a global scope                                                               
-                                                                                                                              
-                                    a = 1                                                                                     
-                                    def x1():                                                                                 
-                                    	print('Inside x1() : ', a)                                                               
-                                    def x2():                                                                                 
-                                    	a = 2                                                                                    
-                                    	print('Inside x2() : ', a)# Here a= 2 using local a                                      
-                                    def x3():                                                                                 
-                                    	global a                                                                                 
-                                    	a = 3                                                                                    
+                                    b= int(input("Only Integer else there will be an error:- "))
+                                    c= float(input("Only Float else there will be an error:- "))
+
+                                    # Output
+                                    print(a)
+                                    print(b+ c)
+                                    print(5+2)
+                                    print("Python")
+                                    print(7,8.12,"Python ", sep= "-", end= "$")
+
+                                    # Multiple Output
+                                    print(a,7,8,6+5)
+
+                                    # Comments - lines that will not be executed
+
+                                    # Single- Line Comment
+
+                                     Getting familiar with python
+                                    Multi- Line Comments used to comment multiple line,
+                                    instead of using # each time.
+                                     Getting familiar with python
+                                    """
+                                    We can also use Double- Quoted-
+                                    Three- inverted- commas
+                                    """
+
+                                    # Escape Sequence Character- For functions that normally cannot be used in strings
+
+                                    print("This is for escape sequence\t \" We can use\" symbol too\n Escape Sequence")
+                                                                
+  02. Variables and Data Types.py   # Variables are like Containers that hold data
+                                    # Variables can be updated i.e. they are dynamic not static
+
+                                    a1=1
+                                    B1=2
+                                    _c1=3
+                                    # not 1c_=4
+                                    print( a1, B1, _c1)
+                                    print( "This is type of a1", type( a1))
+
+                                    # Data type specifies the type of value a variable holds.
+
+                                     Variables and Data Types
+                                    5 types of data types
+                                    1. Numeric:- int, float, complex
+                                    2. String
+                                    3. Boolean:- True, False
+                                    4. Sequenced:- list- [], tuple- ()-> list is mutable( can be modified) and tuple is
+                                    immutable( cannot be modified)
+                                    5. Mapped:- dictionary
+                                     Variables and Data Types
+                                    print("Numeric Data Type= ",3," ",7.83," ",6+2j)
+                                    print("String Data Type= ","This is Python String",'And we are learning Programming')
+                                    print("Boolean Data Type= ",True)
+                                    print("Sequenced Data Type= ",[12,15,16,18]," ",(11,14,17,19))
+                                    print("Dictionary= ", {"name": "Rohan", "age": 25, "Student": True, "Stream": "MBA"})
+
+                                    # Explicit typecasting- Done by user
+                                    string = "15"
+                                    number = 7
+                                    string_number = int(string) # throws an error if the string is not a valid integer
+                                    sum= number + string_number
+                                    print("The Sum of both the numbers is: ", sum)
+
+                                    # Implicit type casting- Done by Python automatically
+
+                                    # Python converts a to int
+                                    a = 7
+                                    print(type(a))
+
+                                    # Python converts b to float
+                                    b = 3.0
+                                    print(type(b))
+
+                                    # Python converts c to float
+                                    c = a + b
+                                    print(c)
+                                    print(type(c))
+
+                                    # Global and Local Variables
+                                    # Variables that are defined inside a function body have a local scope, and those defined
+                                    outside have a global scope
+
+                                    a = 1
+                                    def x1():
+                                    	print('Inside x1() : ', a)
+                                    def x2():
+                                    	a = 2
+                                    	print('Inside x2() : ', a)# Here a= 2 using local a
+                                    def x3():
+                                    	global a
+                                    	a = 3
                                     	print('Inside x3() : ', a) # Here a= 3 using global a 'cos we have written global a first
-                                    print('global : ', a)                                                                     
-                                    x1()                                                                                      
-                                    print('global : ', a)                                                                     
-                                    x2()                                                                                      
-                                    print('global : ', a)                                                                     
-                                    x3()                                                                                      
-                                    print('global : ', a) # value of a has changed in function x3                             
-                                                                                                                                                                           
-  03. Operators.py                  # Operators:- signs or keywords used to perform specific operation on multiple values or  
-                                    variables.                                                                                
-                                    # Types of Operators:-                                                                    
-                                    # Arithmetic Operators- +, -, *, /, **, //, %                                             
-                                    # Comparison Operators- <, >, <=. >=, ==, !=                                              
-                                    # Assignment Operators- =, +=, -=, *=, %=                                                 
-                                    # Logical Operators- AND, OR, NOT                                                         
-                                    # Bitwise Operators- &, |, <<, >>, -, ^                                                   
-                                                                                                                              
-                                    # Arithmetic Operators                                                                    
-                                    a=3                                                                                       
-                                    b=4                                                                                       
-                                    c=6                                                                                       
-                                    print(a+b, " ", a-b, " ", a*b, " ", c/b, " ", b**a, " ", c//b, " ", c%b)                  
-                                                                                                                              
-                                    x= "Lord "                                                                                
-                                    y= "Voldemort "                                                                           
-                                                                                                                              
-                                    # Concatenation of Strings                                                                
-                                    z= x+y                                                                                    
-                                    print(z)                                                                                  
-                                                                                                                              
-                                    # Replication of String                                                                   
-                                    print(z*a)                                                                                
-                                                                                                                              
-                                    # Comparison Operators                                                                    
-                                                                                                                              
-                                    print(a>b, " ", a<b, " ", a==b, " ", a!=b, " ", a>=b, " ", a<=b)                          
-                                                                                                                              
-                                    # Assignment Operators                                                                    
-                                                                                                                              
-                                    d= 16                                                                                     
-                                    print(d)                                                                                  
-                                    a+= 3                                                                                     
-                                    print( a)                                                                                 
-                                    b-= 2                                                                                     
-                                    print( b)                                                                                 
-                                    c*= 2                                                                                     
-                                    print( c)                                                                                 
-                                    c%= 5                                                                                     
-                                    print( c)                                                                                 
-                                    a/=2                                                                                      
-                                    print( a)                                                                                 
-                                                                                                                              
-                                    # Logical Operators                                                                       
-                                                                                                                              
-                                    if( a>1 and b==2):                                                                        
-                                        print(" And is working")                                                              
-                                                                                                                              
-                                    if( a>1 or b<2):                                                                          
-                                        print(" If is working")                                                               
-                                                                                                                              
-                                    if (not( a<1 and b>2)):                                                                   
-                                        print(" Not is working")                                                              
-                                                                                                                              
-                                    # Bitwise Operators                                                                       
-                                                                                                                              
-                                    x = 5  # Binary: 0101                                                                     
-                                    y = 3  # Binary: 0011                                                                     
-                                    result = x & y  # Binary: 0001                                                            
-                                    print(result)                                                                             
-                                    x = 5  # Binary: 0101                                                                     
-                                    y = 3  # Binary: 0011                                                                     
-                                    result = x | y  # Binary: 0111                                                            
-                                    print(result)                                                                             
-                                    x = 5  # Binary: 0101                                                                     
-                                    y = 3  # Binary: 0011                                                                     
-                                    result = x ^ y  # Binary: 0110                                                            
-                                    print(result)                                                                             
-                                    x = 5  # Binary: 0101                                                                     
-                                    result = ~x  # 2's complement                                                             
-                                    print(result)                                                                             
-                                    x = 5  # Binary: 0101                                                                     
-                                    result = x << 2                                                                           
-                                    print(result)                                                                             
-                                    x = 5  # Binary: 0101                                                                     
-                                    result = x >> 2  # Binary: 0001                                                           
-                                    print(result)                                                                             
-                                                                                                                                                                           
-  04. Strings.py                    # Anything that is between single or double quotation marks is string.                    
-                                    # It is basically a collection of Characters. Strings are Immutable.                      
-                                                                                                                              
-                                    name = "Batman" # Batman is string                                                        
-                                    print("Hello "+name) # Hellow is string                                                   
-                                    b= "mohan's life is pretty lavish!!!"                                                     
-                                    d="PETROL136"                                                                             
-                                    e=" Ranger "                                                                              
-                                    print(b)                                                                                  
-                                                                                                                              
-                                    # Multi-line String                                                                       
-                                                                                                                              
-                                    a= """                                                                                    
-                                    An Apple a day keeps the doctor away                                                      
-                                    But what if i am the doctor and                                                           
-                                    i eat an Apple everyday,                                                                  
-                                    Will i be seperated from myself?                                                          
-                                    Sounds interesting!                                                                       
-                                    """                                                                                       
-                                    print(a)                                                                                  
-                                                                                                                              
-                                    # length of String                                                                        
-                                                                                                                              
-                                    x= len(a)                                                                                 
-                                    print('length of a is:- ',x)                                                              
-                                                                                                                              
-                                    # Accessing Specific Characters of String                                                 
-                                                                                                                              
-                                    print(name[3])                                                                            
-                                                                                                                              
-                                    # Slicing                                                                                 
-                                    print(a[22:25])                                                                           
-                                    print(a[:5])                                                                              
-                                    print(a[-8:])                                                                             
-                                    print(a[-14:148])                                                                         
-                                    print(a.upper())                                                                          
-                                    print(a.lower())                                                                          
-                                    print(a.replace("Apple", "doctor"))                                                       
-                                    print(a.split(" "))                                                                       
-                                    print(a.count("Apple"))                                                                   
-                                    print(a.find("i"))                                                                        
-                                    print(a.index("i")) # Raises error when the value is not found                            
-                                    print(a.swapcase())                                                                       
-                                    print(a.isprintable())                                                                    
-                                    print(a.isspace())                                                                        
-                                    print(a.istitle())                                                                        
-                                    print(a.title())                                                                          
-                                                                                                                              
-                                    print(b.rstrip("!"))                                                                      
-                                    print(b.capitalize())                                                                     
-                                    print(b.center(50,"."))                                                                   
-                                    print(b.endswith("."))                                                                    
-                                    print(b.islower())                                                                        
-                                    print(b.istitle())                                                                        
-                                    print(b.title())                                                                          
-                                    print(b.startswith("mohan's"))                                                            
-                                                                                                                              
-                                    print(d.isalnum())                                                                        
-                                    print(d.isupper())                                                                        
-                                                                                                                              
-                                    print(e.strip())                                                                          
-                                                                                                                              
-                                    print(name.swapcase())                                                                    
-                                    print(name.isalpha())                                                                     
-                                                                                                                              
-                                    # String Formatting or f-string                                                           
-                                    b= "Shyam"                                                                                
-                                    c= "Wait for some time"                                                                   
-                                    a= "Welcome {} to this place we would like you to {}, right {}."                          
-                                    x= "Welcome {0} to this place we would like you to {1}, right {1}."                       
-                                    y= f"Welcome {b} to this place we would like you to {c}, right {c}."                      
-                                    print(a.format(b,c,b))                                                                    
-                                    print(x.format(b,c,b))                                                                    
-                                    print(y)                                                                                  
-                                    Weight=68.888                                                                             
-                                    print(f"Weight is {Weight:.1f}")                                                          
-                                    print(f"The format of {{a}} will be give in the right way {2*4}")                         
-                                                                                                                                                                           
-  05. If- elif- else.py              If- elif- else                                                                           
-                                    An if-else loop is a conditional statement in programming that allows you to execute      
-                                    different code blocks based on                                                            
-                                    whether a specified condition is true or false. It's a fundamental control flow structure 
-                                    that enables your program to                                                              
-                                    make decisions and perform actions accordingly.                                           
-                                     If- elif- else                                                                           
-                                                                                                                              
-                                    # If Loop                                                                                 
-                                                                                                                              
-                                    a= input("Enter name:- ")                                                                 
-                                    b= "power"                                                                                
-                                    if(type(a)== type(b)):                                                                    
-                                       print("String ")                                                                       
-                                                                                                                              
-                                    # If- else Loop                                                                           
-                                                                                                                              
-                                    a= int(input("Enter your age:- "))                                                        
-                                    if(a>18):                                                                                 
-                                      print("You can Vote")                                                                   
-                                    else:                                                                                     
-                                      print("You cannot Vote")                                                                
-                                                                                                                              
-                                    # If- elif Loop                                                                           
-                                                                                                                              
-                                    Selling_Price = int(input("Enter Selling Price of Your Product:- "))                      
-                                    Cost_Price = int(input("Enter Cost Price of Your Product:- "))                            
-                                    if (Selling_Price< Cost_Price):                                                           
-                                        print("Profit ")                                                                      
-                                    elif(Selling_Price== Cost_Price):                                                         
-                                        print("Nothing Gained")                                                               
-                                    else:                                                                                     
-                                        print("Loss")                                                                         
-                                                                                                                              
-                                    # Nested If Loop                                                                          
-                                                                                                                              
-                                    number = int(input("Enter any number:- "))                                                
-                                    if (number < 0):                                                                          
-                                        print("Negative Number")                                                              
-                                    elif (number > 0):                                                                        
-                                        print("Positive Number")                                                              
-                                        if (number <= 10):                                                                    
-                                            print("Number in range 1-10")                                                     
-                                        elif (number > 10 and number <= 20):                                                  
-                                            print("Number in range 11-20")                                                    
-                                        else:                                                                                 
-                                            print("Number is greater than 20")                                                
-                                    else:                                                                                     
-                                        print("Number is zero")                                                               
-                                                                                                                                                                           
-  06. Match Case.py                  Match Case                                                                               
-                                    General Syntax for Match- Case                                                            
-                                    match value:                                                                              
-                                        case pattern1:                                                                        
-                                            # Code to execute if value matches pattern1                                       
-                                        case pattern2:                                                                        
-                                            # Code to execute if value matches pattern2                                       
-                                        case _:                                                                               
-                                            # Code to execute if value doesn't match any previous patterns                    
-                                                                                                                              
-                                     Match Case                                                                               
-                                    x = int(input("Enter Number: "))                                                          
-                                    # x is the variable to match                                                              
-                                    match x:                                                                                  
-                                        # if x is 0                                                                           
-                                        case 0:                                                                               
-                                            print("x is zero")                                                                
-                                        # case with if-condition                                                              
-                                        case 8 if x % 2 == 0:                                                                 
-                                            print("x % 2 == 0 and case is 8")                                                 
-                                        # Empty case with if-condition                                                        
-                                        case _ if x < 10:                                                                     
-                                            print("x is < 10")                                                                
-                                        case _ if x!=90:                                                                      
-                                            print(x, "is not 90")                                                             
-                                        case _ if x%3!=0:                                                                     
-                                            print(x, "is not 80")                                                             
-                                        case _: # It is basically an else.                                                    
-                                            print(x)                                                                          
-                                                                                                                                                                           
-  07. For loop.py                   name = 'Saurabh'                                                                          
-                                    for i in name:                                                                            
-                                        print(i, end=", ")                                                                    
-                                                                                                                              
-                                    Directions= ["North ", "South", "East ", "West"]                                          
-                                    for i in Directions:                                                                      
-                                        print("Direction", i, end= ",")                                                       
-                                                                                                                              
-                                    for x in range(5):                                                                        
-                                        print(x)                                                                              
-                                                                                                                              
-                                    for k in range(2,8):                                                                      
-                                        print(k)                                                                              
-                                                                                                                                                                           
-  08. While Loops.py                # While Loops                                                                             
-                                                                                                                              
-                                    number= 5                                                                                 
-                                    while (number > 0):                                                                       
-                                      print(number)                                                                           
-                                      number= number - 1                                                                      
-                                                                                                                              
-                                    # Else with While Loop                                                                    
-                                                                                                                              
-                                    x =10                                                                                     
-                                    while (x > 2):                                                                            
-                                        print(x)                                                                              
-                                        x = x - 1                                                                             
-                                    else:                                                                                     
-                                        print('counter is 0')                                                                 
-                                                                                                                              
-                                    # Do- While loop                                                                          
-                                                                                                                              
-                                    while True:                                                                               
-                                      number = int(input("Enter a positive number: "))                                        
-                                      print(number)                                                                           
-                                      if not number > 0:                                                                      
-                                        break                                                                                 
-                                                                                                                                                                           
-  09. Break and Continue.py         # Break                                                                                   
-                                                                                                                              
-                                    for i in range(1,10,1):                                                                   
-                                        print(i ,end=" ")                                                                     
-                                        if(i==5):                                                                             
-                                            break                                                                             
-                                        else:                                                                                 
-                                            print("Keep Moving")                                                              
-                                    print("Understood Break ")                                                                
-                                                                                                                              
-                                    i = 0                                                                                     
-                                    while True:                                                                               
-                                      print(i)                                                                                
-                                      i = i + 1                                                                               
-                                      if(i%10 == 0):                                                                          
-                                        break                                                                                 
-                                                                                                                              
-                                    # Continue                                                                                
-                                                                                                                              
-                                    for i in [2,3,4,6,8,12]:                                                                  
-                                        if (i%2!=0):                                                                          
-                                            continue                                                                          
-                                        print(i)                                                                              
-                                                                                                                              
-                                                                                                                              
-                                    def even_odd(number):                                                                     
-                                        if number%2==0:                                                                       
-                                            return  f"{number} is even"                                                       
-                                        else:                                                                                 
-                                            return f"{number} is odd"                                                         
-                                    if __name__ == "__main__":                                                                
-                                        try:                                                                                  
-                                            user_input=input("enter a number")                                                
-                                            if user_input:                                                                    
-                                                user_input=int(user_input)                                                    
-                                                result= even_odd(user_input)                                                  
-                                                print(result)                                                                 
-                                            else:                                                                             
-                                                print("No inupt provided")                                                    
-                                        except ValueError:                                                                    
-                                            print("Enter a valid integer")                                                    
-                                        except EOFError:                                                                      
-                                            print("No input detected")                                                        
-                                                                                                                                                                           
-  10. Functions.py                   Functions                                                                                
-                                    Function:- A function is a block of code that performs a specific task whenever it is     
-                                    called.                                                                                   
-                                    Two Types :-                                                                              
-                                    Built-in Functions:- The functions that are pre-defined and pre-coded in python.          
-                                    min(), max(), len(), sum(), type(), range(), dict(), list(), tuple(), set(), print().     
-                                    User Definded Functions:- The functions we create to perform specific tasks as per our    
-                                    needs.                                                                                    
-                                    Calling a function:- We call a function by the function name, followed by parameters (if  
-                                    any) inside the parenthesis.                                                              
-                                     Functions                                                                                
-                                                                                                                              
-                                    def Out():                                                                                
-                                      print("No Parameters Required")                                                         
-                                    def Add(a, b): # Here a and b are Parameters and Arguments are passed to these Parameters 
-                                      Sum = (a+b)                                                                             
-                                      print(Sum)                                                                              
-                                    def Bigger(a, b):                                                                         
-                                      if(a>b):                                                                                
-                                        print("First Number is Bigger")                                                       
-                                      else:                                                                                   
-                                        print("Second number is Bigger")                                                      
-                                    def Small(a, b):                                                                          
-                                      if(a>b):                                                                                
-                                        print("Second Number is Smaller")                                                     
-                                      else:                                                                                   
-                                        print("First Number is Smaller")                                                      
-                                                                                                                              
-                                                                                                                              
-                                    a= 12                                                                                     
-                                    b= 89                                                                                     
-                                    Out()                                                                                     
-                                    Bigger(a, b)                                                                              
-                                    Add(a, b)                                                                                 
-                                    c= 82                                                                                     
-                                    d= 7                                                                                      
-                                    Small(c, d)                                                                               
-                                    Add(c, d)                                                                                 
-                                                                                                                              
-                                     Functions                                                                                
-                                    Arguments in Python are of four Types:                                                    
-                                    Default Arguments                                                                         
-                                    Keyword Arguments                                                                         
-                                    Variable Length Arguments                                                                 
-                                    Required Arguments                                                                        
-                                     Functions                                                                                
-                                                                                                                              
-                                     Functions                                                                                
-                                    Default Argument:- We provide a default value while creating a function.                  
-                                     Functions                                                                                
-                                                                                                                              
-                                    def Add(a= 5, b= 7):                                                                      
-                                      print("Sum is:- ",a+b)                                                                  
-                                    Add()                                                                                     
-                                                                                                                              
-                                     Functions                                                                                
-                                    Keyword Arguemnts:- Arguments with key = value.                                           
-                                    By this the interpreter recognizes the arguments by the parameter name.                   
-                                    So the order in which the arguments are passed is not relevant.                           
-                                     Functions                                                                                
-                                                                                                                              
-                                    def Multiplication(a, b, c):                                                              
-                                        print("a= ", a, "b= ", b, "c= ", c)                                                   
-                                        print("Product is ", a*b*c)                                                           
-                                    Multiplication(c= 12, b= 15, a= 11)                                                       
-                                                                                                                              
-                                     Functions                                                                                
-                                     Variable-length arguments:- Used to pass more arguments than defined in the actual       
-                                    function.                                                                                 
-                                     Functions                                                                                
-                                    # Arbitrary Arguments                                                                     
-                                                                                                                              
-                                    def name(*credit):                                                                        
-                                        print("Hi,\n", credit[0], credit[1], credit[2])                                       
-                                    name("Roshan ", "Rihan ", "Reetha ")                                                      
-                                                                                                                              
-                                    # Keyword Arbitrary Arguments                                                             
-                                                                                                                              
-                                    def name(**debit):                                                                        
-                                        print("Hi,\n", debit["debitor1"], debit["debitor3"], debit["debitor3"])               
-                                    name(debitor1 = "Yamla ", debitor2 = "Pagla ", debitor3 = "Deewana ")                     
-                                                                                                                              
-                                     Functions                                                                                
-                                    Required Arguments:- Conventionally, it is necessary to pass the arguments in the correct 
-                                    positional order                                                                          
-                                    and the number of arguments passed should match with arguments of function .              
-                                     Functions                                                                                
-                                                                                                                              
-                                    def Student(Name, Class, Roll_No):                                                        
-                                        print("Hello,\n", Name, Class, Roll_No)                                               
-                                    Student(Name= "Hermione Granger", Class= "First-Year Magic Student ", Roll_No= 3)         
-                                                                                                                              
-                                    # Return Statement                                                                        
-                                                                                                                              
-                                     Functions                                                                                
-                                    2 Uses - 1. End the function, 2. Send Value Back to the program                           
-                                     Functions                                                                                
-                                                                                                                              
-                                    def Advice(a):                                                                            
-                                      return "Honesty is the best " + a + "!"                                                 
-                                                                                                                              
-                                    Saying = Advice("Policy")                                                                 
-                                    print(Saying)                                                                             
-                                                                                                                              
-                                    # Docstring : String Literals used to define a function, method, class or module          
-                                                                                                                              
-                                    def Multiplication(a,b):                                                                  
-                                      '''This function takes two integers and the product of the two number is given as       
-                                    output'''                                                                                 
-                                      print(a*b)                                                                              
-                                    Multiplication(4,6)                                                                       
-                                    print(Multiplication.__doc__)                                                             
-                                                                                                                              
-                                    # PEP 8 is Python Enhancement Proposal a document that provides guidelines and best       
-                                    practices on how to write Python Code.                                                    
-                                    # The Zen of Python consists of nineteen aphorisms, some of which favor one specific      
-                                    trait over another,                                                                       
-                                    # providing opinions about what makes your code better                                    
-                                    # Can be accessed by writing import this                                                  
-                                                                                                                              
-                                    # Recursive Function                                                                      
-                                    # When a Function Repeats itself or calls some other functions.                           
-                                                                                                                              
-                                                                                                                                                                           
-  11. List.py                       # List is an ordered collection of data that stores mutiple values.                       
-                                    # Elements of List are called List Items and are seperated by commas and enclosed within  
-                                    [].                                                                                       
-                                    # List is Mutable                                                                         
-                                                                                                                              
-                                    a=["Tungsten",53,True]                                                                    
-                                    print(a)                                                                                  
-                                    print(type(a))                                                                            
-                                    print(a[1])                                                                               
-                                    print(a[-1])                                                                              
-                                                                                                                              
-                                    if 't' in a[0]:                                                                           
-                                        print("Present")                                                                      
-                                    else:                                                                                     
-                                        print("Absent")                                                                       
-                                                                                                                              
-                                    for i in a[0:3:2]:                                                                        
-                                        print(i,end='.')                                                                      
-                                                                                                                              
-                                    j=2                                                                                       
-                                    x=[i+j for i in range(6) if i<5]                                                          
-                                    print(x)                                                                                  
-                                    print(2*2)                                                                                
-                                                                                                                              
-                                    # List Manipulation                                                                       
-                                    a=x.copy()                                                                                
-                                    a.append(15)                                                                              
-                                    a[1]=18                                                                                   
-                                    a.insert(0,127)                                                                           
-                                    a.reverse()                                                                               
-                                    a.sort(reverse= True)                                                                     
-                                    print(a[4])                                                                               
-                                    print(a.index(15))                                                                        
-                                    print(a.count(29))                                                                        
-                                    z=[57,24]                                                                                 
-                                    a.extend(z)                                                                               
-                                    print(a)                                                                                  
-                                                                                                                              
-                                    # Concatenation                                                                           
-                                    y=a+x                                                                                     
-                                    print(y)                                                                                  
-                                                                                                                              
-                                    #Replication                                                                              
-                                    print(z*2)                                                                                
-                                                                                                                                                                           
-  12. Tuple.py                      # Tuple is an ordered collection of data that stores mutiple values.                      
-                                    # Elements of Tuple are called Tuple Items and are seperated by commas and enclosed       
-                                    within ().                                                                                
-                                    # Tuple is Immutable                                                                      
-                                                                                                                              
-                                    x=(36)                                                                                    
-                                    a=(27,)                                                                                   
-                                    print(type(x))                                                                            
-                                    print(type(a))                                                                            
-                                    #a[0]=10 Tuples are Immutable                                                             
-                                    a=(14,35,64,27,54,74,27,52,43,27)                                                         
-                                    print(a[0],a.index(27))                                                                   
-                                    z=a.index(27,4,8)                                                                         
-                                    print(z)                                                                                  
-                                                                                                                              
-                                    # Type Casting                                                                            
-                                    b=list(a)                                                                                 
-                                    print(type(b),b)                                                                          
-                                                                                                                              
-                                    # Concatenation                                                                           
-                                    d=(23,45,54,29,66)                                                                        
-                                    z=a+d                                                                                     
-                                    print(z)                                                                                  
-                                                                                                                              
-                                    # Replication                                                                             
-                                    e= d*2                                                                                    
-                                    print(e)                                                                                  
-                                                                                                                              
-                                    # Count                                                                                   
-                                    f=e.count(29)                                                                             
-                                    print(f)                                                                                  
-                                                                                                                                                                           
+                                    print('global : ', a)
+                                    x1()
+                                    print('global : ', a)
+                                    x2()
+                                    print('global : ', a)
+                                    x3()
+                                    print('global : ', a) # value of a has changed in function x3
+                                                                
+  03. Operators.py                  # Operators:- signs or keywords used to perform specific operation on multiple values or
+                                    variables.
+                                    # Types of Operators:-
+                                    # Arithmetic Operators- +, -, *, /, **, //, %
+                                    # Comparison Operators- <, >, <=. >=, ==, !=
+                                    # Assignment Operators- =, +=, -=, *=, %=
+                                    # Logical Operators- AND, OR, NOT
+                                    # Bitwise Operators- &, |, <<, >>, -, ^
+
+                                    # Arithmetic Operators
+                                    a=3
+                                    b=4
+                                    c=6
+                                    print(a+b, " ", a-b, " ", a*b, " ", c/b, " ", b**a, " ", c//b, " ", c%b)
+
+                                    x= "Lord "
+                                    y= "Voldemort "
+
+                                    # Concatenation of Strings
+                                    z= x+y
+                                    print(z)
+
+                                    # Replication of String
+                                    print(z*a)
+
+                                    # Comparison Operators
+
+                                    print(a>b, " ", a<b, " ", a==b, " ", a!=b, " ", a>=b, " ", a<=b)
+
+                                    # Assignment Operators
+
+                                    d= 16
+                                    print(d)
+                                    a+= 3
+                                    print( a)
+                                    b-= 2
+                                    print( b)
+                                    c*= 2
+                                    print( c)
+                                    c%= 5
+                                    print( c)
+                                    a/=2
+                                    print( a)
+
+                                    # Logical Operators
+
+                                    if( a>1 and b==2):
+                                        print(" And is working")
+
+                                    if( a>1 or b<2):
+                                        print(" If is working")
+
+                                    if (not( a<1 and b>2)):
+                                        print(" Not is working")
+
+                                    # Bitwise Operators
+
+                                    x = 5  # Binary: 0101
+                                    y = 3  # Binary: 0011
+                                    result = x & y  # Binary: 0001
+                                    print(result)
+                                    x = 5  # Binary: 0101
+                                    y = 3  # Binary: 0011
+                                    result = x | y  # Binary: 0111
+                                    print(result)
+                                    x = 5  # Binary: 0101
+                                    y = 3  # Binary: 0011
+                                    result = x ^ y  # Binary: 0110
+                                    print(result)
+                                    x = 5  # Binary: 0101
+                                    result = ~x  # 2's complement
+                                    print(result)
+                                    x = 5  # Binary: 0101
+                                    result = x << 2
+                                    print(result)
+                                    x = 5  # Binary: 0101
+                                    result = x >> 2  # Binary: 0001
+                                    print(result)
+                                                                
+  04. Strings.py                    # Anything that is between single or double quotation marks is string.
+                                    # It is basically a collection of Characters. Strings are Immutable.
+
+                                    name = "Batman" # Batman is string
+                                    print("Hello "+name) # Hellow is string
+                                    b= "mohan's life is pretty lavish!!!"
+                                    d="PETROL136"
+                                    e=" Ranger "
+                                    print(b)
+
+                                    # Multi-line String
+
+                                    a= """
+                                    An Apple a day keeps the doctor away
+                                    But what if i am the doctor and
+                                    i eat an Apple everyday,
+                                    Will i be seperated from myself?
+                                    Sounds interesting!
+                                    """
+                                    print(a)
+
+                                    # length of String
+
+                                    x= len(a)
+                                    print('length of a is:- ',x)
+
+                                    # Accessing Specific Characters of String
+
+                                    print(name[3])
+
+                                    # Slicing
+                                    print(a[22:25])
+                                    print(a[:5])
+                                    print(a[-8:])
+                                    print(a[-14:148])
+                                    print(a.upper())
+                                    print(a.lower())
+                                    print(a.replace("Apple", "doctor"))
+                                    print(a.split(" "))
+                                    print(a.count("Apple"))
+                                    print(a.find("i"))
+                                    print(a.index("i")) # Raises error when the value is not found
+                                    print(a.swapcase())
+                                    print(a.isprintable())
+                                    print(a.isspace())
+                                    print(a.istitle())
+                                    print(a.title())
+
+                                    print(b.rstrip("!"))
+                                    print(b.capitalize())
+                                    print(b.center(50,"."))
+                                    print(b.endswith("."))
+                                    print(b.islower())
+                                    print(b.istitle())
+                                    print(b.title())
+                                    print(b.startswith("mohan's"))
+
+                                    print(d.isalnum())
+                                    print(d.isupper())
+
+                                    print(e.strip())
+
+                                    print(name.swapcase())
+                                    print(name.isalpha())
+
+                                    # String Formatting or f-string
+                                    b= "Shyam"
+                                    c= "Wait for some time"
+                                    a= "Welcome {} to this place we would like you to {}, right {}."
+                                    x= "Welcome {0} to this place we would like you to {1}, right {1}."
+                                    y= f"Welcome {b} to this place we would like you to {c}, right {c}."
+                                    print(a.format(b,c,b))
+                                    print(x.format(b,c,b))
+                                    print(y)
+                                    Weight=68.888
+                                    print(f"Weight is {Weight:.1f}")
+                                    print(f"The format of {{a}} will be give in the right way {2*4}")
+                                                                
+  05. If- elif- else.py              If- elif- else
+                                    An if-else loop is a conditional statement in programming that allows you to execute
+                                    different code blocks based on
+                                    whether a specified condition is true or false. It's a fundamental control flow structure
+                                    that enables your program to
+                                    make decisions and perform actions accordingly.
+                                     If- elif- else
+
+                                    # If Loop
+
+                                    a= input("Enter name:- ")
+                                    b= "power"
+                                    if(type(a)== type(b)):
+                                       print("String ")
+
+                                    # If- else Loop
+
+                                    a= int(input("Enter your age:- "))
+                                    if(a>18):
+                                      print("You can Vote")
+                                    else:
+                                      print("You cannot Vote")
+
+                                    # If- elif Loop
+
+                                    Selling_Price = int(input("Enter Selling Price of Your Product:- "))
+                                    Cost_Price = int(input("Enter Cost Price of Your Product:- "))
+                                    if (Selling_Price< Cost_Price):
+                                        print("Profit ")
+                                    elif(Selling_Price== Cost_Price):
+                                        print("Nothing Gained")
+                                    else:
+                                        print("Loss")
+
+                                    # Nested If Loop
+
+                                    number = int(input("Enter any number:- "))
+                                    if (number < 0):
+                                        print("Negative Number")
+                                    elif (number > 0):
+                                        print("Positive Number")
+                                        if (number <= 10):
+                                            print("Number in range 1-10")
+                                        elif (number > 10 and number <= 20):
+                                            print("Number in range 11-20")
+                                        else:
+                                            print("Number is greater than 20")
+                                    else:
+                                        print("Number is zero")
+                                                                
+  06. Match Case.py                  Match Case
+                                    General Syntax for Match- Case
+                                    match value:
+                                        case pattern1:
+                                            # Code to execute if value matches pattern1
+                                        case pattern2:
+                                            # Code to execute if value matches pattern2
+                                        case _:
+                                            # Code to execute if value doesn't match any previous patterns
+
+                                     Match Case
+                                    x = int(input("Enter Number: "))
+                                    # x is the variable to match
+                                    match x:
+                                        # if x is 0
+                                        case 0:
+                                            print("x is zero")
+                                        # case with if-condition
+                                        case 8 if x % 2 == 0:
+                                            print("x % 2 == 0 and case is 8")
+                                        # Empty case with if-condition
+                                        case _ if x < 10:
+                                            print("x is < 10")
+                                        case _ if x!=90:
+                                            print(x, "is not 90")
+                                        case _ if x%3!=0:
+                                            print(x, "is not 80")
+                                        case _: # It is basically an else.
+                                            print(x)
+                                                                
+  07. For loop.py                   name = 'Saurabh'
+                                    for i in name:
+                                        print(i, end=", ")
+
+                                    Directions= ["North ", "South", "East ", "West"]
+                                    for i in Directions:
+                                        print("Direction", i, end= ",")
+
+                                    for x in range(5):
+                                        print(x)
+
+                                    for k in range(2,8):
+                                        print(k)
+                                                                
+  08. While Loops.py                # While Loops
+
+                                    number= 5
+                                    while (number > 0):
+                                      print(number)
+                                      number= number - 1
+
+                                    # Else with While Loop
+
+                                    x =10
+                                    while (x > 2):
+                                        print(x)
+                                        x = x - 1
+                                    else:
+                                        print('counter is 0')
+
+                                    # Do- While loop
+
+                                    while True:
+                                      number = int(input("Enter a positive number: "))
+                                      print(number)
+                                      if not number > 0:
+                                        break
+                                                                
+  09. Break and Continue.py         # Break
+
+                                    for i in range(1,10,1):
+                                        print(i ,end=" ")
+                                        if(i==5):
+                                            break
+                                        else:
+                                            print("Keep Moving")
+                                    print("Understood Break ")
+
+                                    i = 0
+                                    while True:
+                                      print(i)
+                                      i = i + 1
+                                      if(i%10 == 0):
+                                        break
+
+                                    # Continue
+
+                                    for i in [2,3,4,6,8,12]:
+                                        if (i%2!=0):
+                                            continue
+                                        print(i)
+
+
+                                    def even_odd(number):
+                                        if number%2==0:
+                                            return  f"{number} is even"
+                                        else:
+                                            return f"{number} is odd"
+                                    if __name__ == "__main__":
+                                        try:
+                                            user_input=input("enter a number")
+                                            if user_input:
+                                                user_input=int(user_input)
+                                                result= even_odd(user_input)
+                                                print(result)
+                                            else:
+                                                print("No inupt provided")
+                                        except ValueError:
+                                            print("Enter a valid integer")
+                                        except EOFError:
+                                            print("No input detected")
+                                                                
+  10. Functions.py                   Functions
+                                    Function:- A function is a block of code that performs a specific task whenever it is
+                                    called.
+                                    Two Types :-
+                                    Built-in Functions:- The functions that are pre-defined and pre-coded in python.
+                                    min(), max(), len(), sum(), type(), range(), dict(), list(), tuple(), set(), print().
+                                    User Definded Functions:- The functions we create to perform specific tasks as per our
+                                    needs.
+                                    Calling a function:- We call a function by the function name, followed by parameters (if
+                                    any) inside the parenthesis.
+                                     Functions
+
+                                    def Out():
+                                      print("No Parameters Required")
+                                    def Add(a, b): # Here a and b are Parameters and Arguments are passed to these Parameters
+                                      Sum = (a+b)
+                                      print(Sum)
+                                    def Bigger(a, b):
+                                      if(a>b):
+                                        print("First Number is Bigger")
+                                      else:
+                                        print("Second number is Bigger")
+                                    def Small(a, b):
+                                      if(a>b):
+                                        print("Second Number is Smaller")
+                                      else:
+                                        print("First Number is Smaller")
+
+
+                                    a= 12
+                                    b= 89
+                                    Out()
+                                    Bigger(a, b)
+                                    Add(a, b)
+                                    c= 82
+                                    d= 7
+                                    Small(c, d)
+                                    Add(c, d)
+
+                                     Functions
+                                    Arguments in Python are of four Types:
+                                    Default Arguments
+                                    Keyword Arguments
+                                    Variable Length Arguments
+                                    Required Arguments
+                                     Functions
+
+                                     Functions
+                                    Default Argument:- We provide a default value while creating a function.
+                                     Functions
+
+                                    def Add(a= 5, b= 7):
+                                      print("Sum is:- ",a+b)
+                                    Add()
+
+                                     Functions
+                                    Keyword Arguemnts:- Arguments with key = value.
+                                    By this the interpreter recognizes the arguments by the parameter name.
+                                    So the order in which the arguments are passed is not relevant.
+                                     Functions
+
+                                    def Multiplication(a, b, c):
+                                        print("a= ", a, "b= ", b, "c= ", c)
+                                        print("Product is ", a*b*c)
+                                    Multiplication(c= 12, b= 15, a= 11)
+
+                                     Functions
+                                     Variable-length arguments:- Used to pass more arguments than defined in the actual
+                                    function.
+                                     Functions
+                                    # Arbitrary Arguments
+
+                                    def name(*credit):
+                                        print("Hi,\n", credit[0], credit[1], credit[2])
+                                    name("Roshan ", "Rihan ", "Reetha ")
+
+                                    # Keyword Arbitrary Arguments
+
+                                    def name(**debit):
+                                        print("Hi,\n", debit["debitor1"], debit["debitor3"], debit["debitor3"])
+                                    name(debitor1 = "Yamla ", debitor2 = "Pagla ", debitor3 = "Deewana ")
+
+                                     Functions
+                                    Required Arguments:- Conventionally, it is necessary to pass the arguments in the correct
+                                    positional order
+                                    and the number of arguments passed should match with arguments of function .
+                                     Functions
+
+                                    def Student(Name, Class, Roll_No):
+                                        print("Hello,\n", Name, Class, Roll_No)
+                                    Student(Name= "Hermione Granger", Class= "First-Year Magic Student ", Roll_No= 3)
+
+                                    # Return Statement
+
+                                     Functions
+                                    2 Uses - 1. End the function, 2. Send Value Back to the program
+                                     Functions
+
+                                    def Advice(a):
+                                      return "Honesty is the best " + a + "!"
+
+                                    Saying = Advice("Policy")
+                                    print(Saying)
+
+                                    # Docstring : String Literals used to define a function, method, class or module
+
+                                    def Multiplication(a,b):
+                                      '''This function takes two integers and the product of the two number is given as
+                                    output'''
+                                      print(a*b)
+                                    Multiplication(4,6)
+                                    print(Multiplication.__doc__)
+
+                                    # PEP 8 is Python Enhancement Proposal a document that provides guidelines and best
+                                    practices on how to write Python Code.
+                                    # The Zen of Python consists of nineteen aphorisms, some of which favor one specific
+                                    trait over another,
+                                    # providing opinions about what makes your code better
+                                    # Can be accessed by writing import this
+
+                                    # Recursive Function
+                                    # When a Function Repeats itself or calls some other functions.
+
+                                                                
+  11. List.py                       # List is an ordered collection of data that stores mutiple values.
+                                    # Elements of List are called List Items and are seperated by commas and enclosed within
+                                    [].
+                                    # List is Mutable
+
+                                    a=["Tungsten",53,True]
+                                    print(a)
+                                    print(type(a))
+                                    print(a[1])
+                                    print(a[-1])
+
+                                    if 't' in a[0]:
+                                        print("Present")
+                                    else:
+                                        print("Absent")
+
+                                    for i in a[0:3:2]:
+                                        print(i,end='.')
+
+                                    j=2
+                                    x=[i+j for i in range(6) if i<5]
+                                    print(x)
+                                    print(2*2)
+
+                                    # List Manipulation
+                                    a=x.copy()
+                                    a.append(15)
+                                    a[1]=18
+                                    a.insert(0,127)
+                                    a.reverse()
+                                    a.sort(reverse= True)
+                                    print(a[4])
+                                    print(a.index(15))
+                                    print(a.count(29))
+                                    z=[57,24]
+                                    a.extend(z)
+                                    print(a)
+
+                                    # Concatenation
+                                    y=a+x
+                                    print(y)
+
+                                    #Replication
+                                    print(z*2)
+                                                                
+  12. Tuple.py                      # Tuple is an ordered collection of data that stores mutiple values.
+                                    # Elements of Tuple are called Tuple Items and are seperated by commas and enclosed
+                                    within ().
+                                    # Tuple is Immutable
+
+                                    x=(36)
+                                    a=(27,)
+                                    print(type(x))
+                                    print(type(a))
+                                    #a[0]=10 Tuples are Immutable
+                                    a=(14,35,64,27,54,74,27,52,43,27)
+                                    print(a[0],a.index(27))
+                                    z=a.index(27,4,8)
+                                    print(z)
+
+                                    # Type Casting
+                                    b=list(a)
+                                    print(type(b),b)
+
+                                    # Concatenation
+                                    d=(23,45,54,29,66)
+                                    z=a+d
+                                    print(z)
+
+                                    # Replication
+                                    e= d*2
+                                    print(e)
+
+                                    # Count
+                                    f=e.count(29)
+                                    print(f)
+                                                                
   13. Set.py                        # Set is an unordered collection of data, it stored multiple entries in a single variable.
-                                    # Seperated by Commas and enclosed within {}                                              
-                                    # Sets are immutable.                                                                     
-                                    # Sets do not contain Duplicate Items.                                                    
-                                                                                                                              
-                                    a=set()                                                                                   
-                                    b={2,3,4,5,2,"Tenacious",True,2.0}                                                        
-                                    print(type(a))                                                                            
-                                    print(b)                                                                                  
-                                                                                                                              
-                                    for i in b:                                                                               
-                                        print(i,end=",")                                                                      
-                                    print("end")                                                                              
-                                                                                                                              
-                                    if 2 in b:                                                                                
-                                        print(f"Yes {2*1} is present in b")                                                   
-                                    else:                                                                                     
-                                        print(f"No {2*1} is not present in b")                                                
-                                                                                                                              
-                                    # Manipulation                                                                            
-                                                                                                                              
-                                    a1= {23, 22, 45, 56}                                                                      
-                                    a2= {1, 2, 3, 4, 5, 6}                                                                    
-                                    a1.update(a2)                                                                             
-                                    a1.difference_update(a2)                                                                  
-                                    a3=a1.difference(a2)                                                                      
-                                    print(a3)                                                                                 
-                                    print(a1)                                                                                 
-                                    print(a1.union(a2),a1.intersection(a2))                                                   
-                                    a1.update(a2)                                                                             
-                                    a3= a1.symmetric_difference(a2)                                                           
-                                    a1.intersection_update(a2)                                                                
-                                    print(a1)                                                                                 
-                                    print(a3)                                                                                 
-                                                                                                                              
-                                     Set                                                                                      
-                                    union()                                                                                   
-                                    update()                                                                                  
-                                    intersection                                                                              
-                                    intersectin_update()                                                                      
-                                    symmetric_difference                                                                      
-                                    symmetric_difference_update()                                                             
-                                    difference()                                                                              
-                                    difference_update()                                                                       
-                                     Set                                                                                      
-                                                                                                                              
-                                    # IN- Built Methods                                                                       
-                                    print(a1.isdisjoint(a3))                                                                  
-                                    print(a1.isdisjoint(a2))                                                                  
-                                    print(a1.issuperset(a2))                                                                  
-                                    print(a1.issubset(a2))                                                                    
-                                                                                                                              
-                                    a1.add(11)                                                                                
-                                    a1.remove(3)                                                                              
-                                    a1.discard(21)# No Error                                                                  
-                                    print(a1)                                                                                 
-                                    a10= a1.pop()                                                                             
-                                    print(a10)                                                                                
-                                    del a10                                                                                   
-                                    a3.clear()                                                                                
-                                    print(a3)                                                                                 
-                                                                                                                                                                           
-  14. Dictionary.py                 # Dictionary is an ordered collection of data that stores multiple values                 
-                                    # Key- Value Pair having , in between and enclosed in {}                                  
-                                                                                                                              
-                                    a={                                                                                       
-                                        "Ram": "Mediator",                                                                    
-                                        "Dhoni": "Marketing",                                                                 
-                                        "Shyam": "Client"                                                                     
-                                    }                                                                                         
-                                                                                                                              
-                                    print(a["Dhoni"])                                                                         
-                                    print(a.get("Ram"))# Does not give error in case of controversy                           
-                                    print(a.keys())                                                                           
-                                    print(a.values())                                                                         
-                                    print(a.items())                                                                          
-                                    a.pop("Shyam")                                                                            
-                                    a.popitem()                                                                               
-                                    del a["Ram"]                                                                              
-                                                                                                                              
-                                    for x,y in a.items():                                                                     
-                                        print(f"The way to print {x} along with the right {y} consistency is key.")           
-                                                                                                                              
-                                    b={                                                                                       
-                                        "Hari":"Task",                                                                        
-                                        "Mohan":"Analyst"                                                                     
-                                    }                                                                                         
-                                    a.update(b)                                                                               
-                                    print(a)                                                                                  
-                                    b.clear()                                                                                 
-                                    print(b)                                                                                  
-                                    del b                                                                                     
-                                                                                                                                                                           
-  README.md                         # A-Roadmap-to-Python-Mastery                                                             
-                                     These Python files provide a foundational understanding of essential Basics of Python    
-                                    programming language .                                                                    
+                                    # Seperated by Commas and enclosed within {}
+                                    # Sets are immutable.
+                                    # Sets do not contain Duplicate Items.
+
+                                    a=set()
+                                    b={2,3,4,5,2,"Tenacious",True,2.0}
+                                    print(type(a))
+                                    print(b)
+
+                                    for i in b:
+                                        print(i,end=",")
+                                    print("end")
+
+                                    if 2 in b:
+                                        print(f"Yes {2*1} is present in b")
+                                    else:
+                                        print(f"No {2*1} is not present in b")
+
+                                    # Manipulation
+
+                                    a1= {23, 22, 45, 56}
+                                    a2= {1, 2, 3, 4, 5, 6}
+                                    a1.update(a2)
+                                    a1.difference_update(a2)
+                                    a3=a1.difference(a2)
+                                    print(a3)
+                                    print(a1)
+                                    print(a1.union(a2),a1.intersection(a2))
+                                    a1.update(a2)
+                                    a3= a1.symmetric_difference(a2)
+                                    a1.intersection_update(a2)
+                                    print(a1)
+                                    print(a3)
+
+                                     Set
+                                    union()
+                                    update()
+                                    intersection
+                                    intersectin_update()
+                                    symmetric_difference
+                                    symmetric_difference_update()
+                                    difference()
+                                    difference_update()
+                                     Set
+
+                                    # IN- Built Methods
+                                    print(a1.isdisjoint(a3))
+                                    print(a1.isdisjoint(a2))
+                                    print(a1.issuperset(a2))
+                                    print(a1.issubset(a2))
+
+                                    a1.add(11)
+                                    a1.remove(3)
+                                    a1.discard(21)# No Error
+                                    print(a1)
+                                    a10= a1.pop()
+                                    print(a10)
+                                    del a10
+                                    a3.clear()
+                                    print(a3)
+                                                                
+  14. Dictionary.py                 # Dictionary is an ordered collection of data that stores multiple values
+                                    # Key- Value Pair having , in between and enclosed in {}
+
+                                    a={
+                                        "Ram": "Mediator",
+                                        "Dhoni": "Marketing",
+                                        "Shyam": "Client"
+                                    }
+
+                                    print(a["Dhoni"])
+                                    print(a.get("Ram"))# Does not give error in case of controversy
+                                    print(a.keys())
+                                    print(a.values())
+                                    print(a.items())
+                                    a.pop("Shyam")
+                                    a.popitem()
+                                    del a["Ram"]
+
+                                    for x,y in a.items():
+                                        print(f"The way to print {x} along with the right {y} consistency is key.")
+
+                                    b={
+                                        "Hari":"Task",
+                                        "Mohan":"Analyst"
+                                    }
+                                    a.update(b)
+                                    print(a)
+                                    b.clear()
+                                    print(b)
+                                    del b
+                                                                
+  README.md                         # A-Roadmap-to-Python-Mastery
+                                     These Python files provide a foundational understanding of essential Basics of Python
+                                    programming language .

@@ -1,162 +1,162 @@
-                                                                                                                                                                           
-1. README                                                                                                                                                                  
-                                                                                                                              
-                                                                                                                                                                           
-  README.md                         # Data-Visualisation-in-R                                                                 
-                                    Data visualization is the graphical representation of data. It involves transforming data 
-                                    into visual elements like charts, graphs, or maps to make it easier to understand,        
-                                    interpret, and communicate.                                                               
-                                                                                                                                                                           
-2. CONTENTS                                                                                                                                                                
-                                                                                                                              
-                                                                                                                                                                           
-  1. Pie Chart.R                    # Pie Chart in R language                                                                 
-                                                                                                                                                                           
-  2. Bar Chart.R                    # Bar Chart in R language                                                                 
-                                                                                                                                                                           
-  3. Histogram.R                    # Histogram in R language                                                                 
-                                                                                                                                                                           
-  4. Line Graph.R                   # Line Graph in R language                                                                
-                                                                                                                                                                           
-  5. Scatter Plot.R                 # Scatter Plot in R language                                                              
-                                                                                                                                                                           
-  6. Box Plot.R                     # Box Plot in R language                                                                  
-                                                                                                                                                                           
-  README.md                         # Data-Visualisation-in-R                                                                 
-                                                                                                                                                                           
-3. PAGES                                                                                                                                                                   
-                                                                                                                              
-                                                                                                                                                                           
-  1. Pie Chart.R                    # Pie Chart in R language                                                                 
-                                    # A pie chart is a circular chart divided into sectors, each representing                 
-                                    # a category of data. The size of each sector is proportional to the quantity             
-                                    # or frequency of the data it represents.                                                 
-                                                                                                                              
-                                    # Data                                                                                    
-                                    a <- c(14, 41, 36, 44)                                                                    
-                                    labels <- c("Cherry","Banana","Apple","Mango")                                            
-                                    pie(a,labels)                                                                             
-                                    pie(a,labels,main="Fruit Chart",col = rainbow(length(a)))                                 
-                                    colours <- c("blue","yellow","red","orange")                                              
-                                    pie(a,labels,main = "Fruit Chart",col=colours)                                            
-                                                                                                                              
-                                    # Chart Legend                                                                            
-                                    # legend(x,y=NULL,legend,fill,col,bg) - General Syntax                                    
-                                                                                                                              
-                                    legend("topright",c("Cherry","Banana","Apple","Mango"),cex=0.9,                           
-                                           fill=colours)                                                                      
-                                                                                                                              
-                                    # 3-D Pie Chart                                                                           
-                                    # install.packages("plotrix") - First time only                                           
-                                    library(plotrix)                                                                          
-                                    b <- c(30,25,45,55)                                                                       
-                                    labelsa=c("East","West","North","South")                                                  
-                                    pie3D(b,labels=labelsa,explode = 0.2 , main = "Directions")                               
-                                                                                                                              
-                                    # Percentage                                                                              
-                                    c <- c(30,25,45,55)                                                                       
-                                    labelsb=c("East","West","North","South")                                                  
-                                    pie_percent <- round(100*c/sum(c),1)                                                      
-                                    pie3D(c,labels = labelsb,main="Direction",col = rainbow(length(c)))                       
-                                    legend("topright",legend = labelsb,cex=0.6,                                               
-                                           fill=rainbow(length(c)))                                                           
-                                                                                                                                                                           
-  2. Bar Chart.R                    # Bar Chart in R language                                                                 
-                                                                                                                              
-                                    a1 <- c(34,45,43,38,47)                                                                   
-                                    barplot(a1)                                                                               
-                                                                                                                              
-                                    a2 <- c(15,18,19,21)                                                                      
-                                    a3 <- c("East","West","North","South")                                                    
-                                    barplot(a2,names.arg = a3,xlab = "Direction",ylab = "No. of People",col = "red",          
-                                            main = "People coming form a certain Direction",border = "black")                 
-                                                                                                                              
-                                    # Group Bar Chart & Stacked Bar Chart                                                     
-                                                                                                                              
-                                    weeks <- c("Monday","Tuesday","Wednesday","Thursday","Friday")                            
-                                    day <- c("Morning","Afternoon","Night")                                                   
+                                                                
+1. README
+
+                                                                
+  README.md                         # Data-Visualisation-in-R
+                                    Data visualization is the graphical representation of data. It involves transforming data
+                                    into visual elements like charts, graphs, or maps to make it easier to understand,
+                                    interpret, and communicate.
+                                                                
+2. CONTENTS
+
+                                                                
+  1. Pie Chart.R                    # Pie Chart in R language
+                                                                
+  2. Bar Chart.R                    # Bar Chart in R language
+                                                                
+  3. Histogram.R                    # Histogram in R language
+                                                                
+  4. Line Graph.R                   # Line Graph in R language
+                                                                
+  5. Scatter Plot.R                 # Scatter Plot in R language
+                                                                
+  6. Box Plot.R                     # Box Plot in R language
+                                                                
+  README.md                         # Data-Visualisation-in-R
+                                                                
+3. PAGES
+
+                                                                
+  1. Pie Chart.R                    # Pie Chart in R language
+                                    # A pie chart is a circular chart divided into sectors, each representing
+                                    # a category of data. The size of each sector is proportional to the quantity
+                                    # or frequency of the data it represents.
+
+                                    # Data
+                                    a <- c(14, 41, 36, 44)
+                                    labels <- c("Cherry","Banana","Apple","Mango")
+                                    pie(a,labels)
+                                    pie(a,labels,main="Fruit Chart",col = rainbow(length(a)))
+                                    colours <- c("blue","yellow","red","orange")
+                                    pie(a,labels,main = "Fruit Chart",col=colours)
+
+                                    # Chart Legend
+                                    # legend(x,y=NULL,legend,fill,col,bg) - General Syntax
+
+                                    legend("topright",c("Cherry","Banana","Apple","Mango"),cex=0.9,
+                                           fill=colours)
+
+                                    # 3-D Pie Chart
+                                    # install.packages("plotrix") - First time only
+                                    library(plotrix)
+                                    b <- c(30,25,45,55)
+                                    labelsa=c("East","West","North","South")
+                                    pie3D(b,labels=labelsa,explode = 0.2 , main = "Directions")
+
+                                    # Percentage
+                                    c <- c(30,25,45,55)
+                                    labelsb=c("East","West","North","South")
+                                    pie_percent <- round(100*c/sum(c),1)
+                                    pie3D(c,labels = labelsb,main="Direction",col = rainbow(length(c)))
+                                    legend("topright",legend = labelsb,cex=0.6,
+                                           fill=rainbow(length(c)))
+                                                                
+  2. Bar Chart.R                    # Bar Chart in R language
+
+                                    a1 <- c(34,45,43,38,47)
+                                    barplot(a1)
+
+                                    a2 <- c(15,18,19,21)
+                                    a3 <- c("East","West","North","South")
+                                    barplot(a2,names.arg = a3,xlab = "Direction",ylab = "No. of People",col = "red",
+                                            main = "People coming form a certain Direction",border = "black")
+
+                                    # Group Bar Chart & Stacked Bar Chart
+
+                                    weeks <- c("Monday","Tuesday","Wednesday","Thursday","Friday")
+                                    day <- c("Morning","Afternoon","Night")
                                     values <- matrix(c(20,36,45,44,27,28,22,32,19,25,33,31,42,24,37),nrow=3,ncol=5,byrow=TRUE)
-                                    barplot(values,main="Total work done on certain days",names.arg = weeks,xlab="weeks",     
-                                            ylab = "day",col=c("blue","green","red"))                                         
-                                    legend("topright", day , cex=0.6, fill = c("blue","green","red"))                         
-                                                                                                                                                                           
-  3. Histogram.R                    # Histogram in R language                                                                 
-                                                                                                                              
-                                    a <- c(12,15,17,19,24,26,29,31,34,35,37,42,45)                                            
-                                                                                                                              
-                                    hist(a,xlab= "Age", ylab= "Frequency", col= "red", border= "blue")                        
-                                                                                                                              
-                                    # Use of xlim and ylim parameter                                                          
-                                                                                                                              
-                                    hist(a,xlab = "Age", ylab= "Frequecy", col= "blue", border= "red",                        
-                                         xlim=  c(10,50), ylim= c(0,5), breaks= 10)                                           
-                                                                                                                              
-                                                                                                                                                                           
-  4. Line Graph.R                   # Line Graph in R language                                                                
-                                                                                                                              
-                                    a<- c("4","19","9","24","14")                                                             
-                                    plot(a)                                                                                   
-                                                                                                                              
-                                    plot(a, type= "p")                                                                        
-                                    plot(a, type= "l")                                                                        
-                                    plot(a, type= "o")                                                                        
-                                                                                                                              
-                                    plot(a,type= "o", col= "red", xlab= "class", ylab= "Student Present")                     
-                                                                                                                              
-                                    # Multiple Lines                                                                          
-                                                                                                                              
-                                    a<- c("4","19","9","24","14")                                                             
-                                    b<- c("24","19","14","9","4")                                                             
-                                    c<- c("24","4","19","9","14")                                                             
-                                    plot(a, type="o", col= "red", xlab= "class", ylab= "Student Present")                     
-                                    lines(b, type= "o", col= "blue")                                                          
-                                    lines(c, type="o", col="yellow")                                                          
-                                                                                                                                                                           
-  5. Scatter Plot.R                 # Scatter Plot in R language                                                              
-                                    # plot(x, y, main, xlab, ylab, xlim, ylim, axes) - General syntax                         
-                                                                                                                              
-                                    View(mtcars)                                                                              
-                                    dim(mtcars)                                                                               
-                                    names(mtcars)                                                                             
-                                                                                                                              
-                                    # Fetching two columns from mtcars                                                        
-                                                                                                                              
-                                    data<- mtcars[,c('wt','mpg')]                                                             
-                                    print(data)                                                                               
-                                                                                                                              
-                                    # Plotting the chart for cars with weight height between 2.5 and 5 and mileage            
-                                    # between 15 and 30                                                                       
-                                                                                                                              
-                                    plot( x= data$wt, y= data$mpg,xlab= "weight", ylab= "Mileage",                            
-                                          xlim= c(2.5, 5), ylim= c(15, 30),                                                   
-                                          main= "Weight v/s Mileage")                                                         
-                                                                                                                              
-                                    # Scatter Plot                                                                            
-                                    # install.packages("ggplot2") - First time only                                           
-                                                                                                                              
-                                    library(ggplot2)                                                                          
-                                    names( mtcars)                                                                            
-                                    ggplot(mtcars, aes( x= drat, y= mpg))+ geom_point()                                       
-                                    # aes- aesthetic, geom- geometry                                                          
-                                    ggplot(mtcars, aes( x= drat, y= mpg))+ geom_point( aes( color= factor(gear)))             
-                                                                                                                                                                           
-  6. Box Plot.R                     # Box Plot in R language                                                                  
-                                                                                                                              
-                                    names( mtcars)                                                                            
-                                                                                                                              
-                                    boxplot(mtcars$hp)                                                                        
-                                                                                                                              
-                                    boxplot(mtcars$hp, main= "Data", xlab= "X- Axis", ylab= "Y- Axis", col= "yellow",         
-                                            border= "red", horizontal= TRUE, notch= TRUE)                                     
-                                                                                                                              
-                                    boxplot(mpg ~ cyl, data= mtcars, xlab= "Quantity", ylab= "Miles", col= "yellow",          
-                                            border= "red")                                                                    
-                                                                                                                              
-                                    boxplot(mpg ~ cyl, data= mtcars, xlab= "Quantity", ylab= "Miles", main="Box",             
-                                            notch= TRUE, varwidth= TRUE, col= c("red", "yellow", "blue"), border= "green",    
-                                            names= c("High","Medium","Low"))                                                  
-                                                                                                                                                                           
-  README.md                         # Data-Visualisation-in-R                                                                 
-                                    Data visualization is the graphical representation of data. It involves transforming data 
-                                    into visual elements like charts, graphs, or maps to make it easier to understand,        
-                                    interpret, and communicate.                                                               
+                                    barplot(values,main="Total work done on certain days",names.arg = weeks,xlab="weeks",
+                                            ylab = "day",col=c("blue","green","red"))
+                                    legend("topright", day , cex=0.6, fill = c("blue","green","red"))
+                                                                
+  3. Histogram.R                    # Histogram in R language
+
+                                    a <- c(12,15,17,19,24,26,29,31,34,35,37,42,45)
+
+                                    hist(a,xlab= "Age", ylab= "Frequency", col= "red", border= "blue")
+
+                                    # Use of xlim and ylim parameter
+
+                                    hist(a,xlab = "Age", ylab= "Frequecy", col= "blue", border= "red",
+                                         xlim=  c(10,50), ylim= c(0,5), breaks= 10)
+
+                                                                
+  4. Line Graph.R                   # Line Graph in R language
+
+                                    a<- c("4","19","9","24","14")
+                                    plot(a)
+
+                                    plot(a, type= "p")
+                                    plot(a, type= "l")
+                                    plot(a, type= "o")
+
+                                    plot(a,type= "o", col= "red", xlab= "class", ylab= "Student Present")
+
+                                    # Multiple Lines
+
+                                    a<- c("4","19","9","24","14")
+                                    b<- c("24","19","14","9","4")
+                                    c<- c("24","4","19","9","14")
+                                    plot(a, type="o", col= "red", xlab= "class", ylab= "Student Present")
+                                    lines(b, type= "o", col= "blue")
+                                    lines(c, type="o", col="yellow")
+                                                                
+  5. Scatter Plot.R                 # Scatter Plot in R language
+                                    # plot(x, y, main, xlab, ylab, xlim, ylim, axes) - General syntax
+
+                                    View(mtcars)
+                                    dim(mtcars)
+                                    names(mtcars)
+
+                                    # Fetching two columns from mtcars
+
+                                    data<- mtcars[,c('wt','mpg')]
+                                    print(data)
+
+                                    # Plotting the chart for cars with weight height between 2.5 and 5 and mileage
+                                    # between 15 and 30
+
+                                    plot( x= data$wt, y= data$mpg,xlab= "weight", ylab= "Mileage",
+                                          xlim= c(2.5, 5), ylim= c(15, 30),
+                                          main= "Weight v/s Mileage")
+
+                                    # Scatter Plot
+                                    # install.packages("ggplot2") - First time only
+
+                                    library(ggplot2)
+                                    names( mtcars)
+                                    ggplot(mtcars, aes( x= drat, y= mpg))+ geom_point()
+                                    # aes- aesthetic, geom- geometry
+                                    ggplot(mtcars, aes( x= drat, y= mpg))+ geom_point( aes( color= factor(gear)))
+                                                                
+  6. Box Plot.R                     # Box Plot in R language
+
+                                    names( mtcars)
+
+                                    boxplot(mtcars$hp)
+
+                                    boxplot(mtcars$hp, main= "Data", xlab= "X- Axis", ylab= "Y- Axis", col= "yellow",
+                                            border= "red", horizontal= TRUE, notch= TRUE)
+
+                                    boxplot(mpg ~ cyl, data= mtcars, xlab= "Quantity", ylab= "Miles", col= "yellow",
+                                            border= "red")
+
+                                    boxplot(mpg ~ cyl, data= mtcars, xlab= "Quantity", ylab= "Miles", main="Box",
+                                            notch= TRUE, varwidth= TRUE, col= c("red", "yellow", "blue"), border= "green",
+                                            names= c("High","Medium","Low"))
+                                                                
+  README.md                         # Data-Visualisation-in-R
+                                    Data visualization is the graphical representation of data. It involves transforming data
+                                    into visual elements like charts, graphs, or maps to make it easier to understand,
+                                    interpret, and communicate.

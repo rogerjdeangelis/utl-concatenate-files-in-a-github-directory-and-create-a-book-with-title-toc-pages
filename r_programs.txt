@@ -1,193 +1,193 @@
-                                                                                                                                                                           
-1. README                                                                                                                                                                  
-                                                                                                                              
-                                                                                                                                                                           
-  README.md                         # R-Programs                                                                              
-                                     R is a powerful and versatile programming language that is widely used for statistical   
-                                    computing, data analysis and visualization. It provides a comprehensive set of tools and  
-                                    libraries for handling various data types, performing complex calculations and creating   
-                                    informative graphs. R's popularity stems from its flexibility, ease of use and extensive  
-                                    community support. This Reposi                                                            
-                                                                                                                                                                           
-2. CONTENTS                                                                                                                                                                
-                                                                                                                              
-                                                                                                                                                                           
-  Add Two Vectors.R                 a<- c(10, 19, 12, 15)                                                                     
-                                                                                                                                                                           
-  Check Prime Number.R              is_prime <- function(num) {                                                               
-                                                                                                                                                                           
-  Find the Factorial of a Number.R  a<- as.integer(readline("Enter the number:- "))                                           
-                                                                                                                                                                           
-  Find the Minimum and Maximum.R    a<- c(12, 27, 49, 57, 78)                                                                 
-                                                                                                                                                                           
-  Generate Random Numbers from Sta  r<- rnorm(5)                                                                              
-                                                                                                                                                                           
-  Multiplication Table.R            a<- as.integer(readline("Enter the Number:- "))                                           
-                                                                                                                                                                           
-  README.md                         # R-Programs                                                                              
-                                                                                                                                                                           
-  Sample from a Population.R        # Define the population data                                                              
-                                                                                                                                                                           
-  Sort a Vector.R                   a<- c(20, 36, 45, 54, 27)                                                                 
-                                                                                                                                                                           
-  Sum, Mean and Product of the Vec  a<- c(12, 14, 16, 17)                                                                     
-                                                                                                                                                                           
-  Take Input From the User.R        # To Take Input from User                                                                 
-                                                                                                                                                                           
-3. PAGES                                                                                                                                                                   
-                                                                                                                              
-                                                                                                                                                                           
-  Add Two Vectors.R                 a<- c(10, 19, 12, 15)                                                                     
-                                    b<- c(16, 17, 19, 21)                                                                     
-                                    c= a+b                                                                                    
-                                    print(c)                                                                                  
-                                                                                                                                                                           
-  Check Prime Number.R              is_prime <- function(num) {                                                               
-                                      if (num <= 1) {                                                                         
-                                        return(FALSE)  # Numbers less than or equal to 1 are not prime                        
-                                      }                                                                                       
-                                      if (num <= 3) {                                                                         
-                                        return(TRUE)   # 2 and 3 are prime numbers                                            
-                                      }                                                                                       
-                                      if (num %% 2 == 0 || num %% 3 == 0) {                                                   
-                                        return(FALSE)  # Numbers divisible by 2 or 3 are not prime                            
-                                                                                                                              
-                                      }                                                                                       
-                                      i <- 5                                                                                  
-                                      while (i * i <= num) {                                                                  
-                                        if (num %% i == 0 || num %% (i + 2) == 0) {                                           
-                                          return(FALSE)                                                                       
-                                        }                                                                                     
-                                        i <- i + 6                                                                            
-                                      }                                                                                       
-                                      return(TRUE)                                                                            
-                                    }                                                                                         
-                                                                                                                              
-                                    # Get user input                                                                          
-                                    num <- as.integer(readline(prompt = "Enter a number: "))                                  
-                                                                                                                              
-                                    # Check if the number is prime                                                            
-                                    if (is_prime(num)) {                                                                      
-                                      print(paste(num, "is a prime number."))                                                 
-                                    } else {                                                                                  
-                                      print(paste(num, "is not a prime number."))                                             
-                                                                                                                              
-                                    }                                                                                         
-                                                                                                                                                                           
-  Find the Factorial of a Number.R  a<- as.integer(readline("Enter the number:- "))                                           
-                                    b<- 1L                                                                                    
-                                    for (i in 2:a)                                                                            
-                                    {                                                                                         
-                                      b=i*b                                                                                   
-                                    }                                                                                         
-                                    print(b)                                                                                  
-                                                                                                                                                                           
-  Find the Minimum and Maximum.R    a<- c(12, 27, 49, 57, 78)                                                                 
-                                    print(max(a))                                                                             
-                                    print(min(a))                                                                             
-                                                                                                                                                                           
-  Generate Random Numbers from Sta  r<- rnorm(5)                                                                              
-                                    print(r)                                                                                  
-                                                                                                                              
-                                    set.seed(12)                                                                              
-                                    r<- rnorm(100)                                                                            
-                                    print(r)                                                                                  
-                                                                                                                                                                           
-  Multiplication Table.R            a<- as.integer(readline("Enter the Number:- "))                                           
-                                    for(i in 1:10)                                                                            
-                                    {                                                                                         
-                                      cat(a, "x", i, "=", a*i,"\n")                                                           
-                                    }                                                                                         
-                                                                                                                              
-                                    # Define the size of the multiplication table                                             
-                                    n <- 10                                                                                   
-                                                                                                                              
-                                    # Create a matrix to store the multiplication table                                       
-                                    multiplication_table <- matrix(1:(n^2), nrow = n, ncol = n)                               
-                                                                                                                              
-                                    # Print the multiplication table                                                          
-                                    print(multiplication_table)                                                               
-                                                                                                                                                                           
-  README.md                         # R-Programs                                                                              
-                                     R is a powerful and versatile programming language that is widely used for statistical   
-                                    computing, data analysis and visualization. It provides a comprehensive set of tools and  
-                                    libraries for handling various data types, performing complex calculations and creating   
-                                    informative graphs. R's popularity stems from its flexibility, ease of use and extensive  
-                                    community support. This Reposi                                                            
-                                                                                                                                                                           
-  Sample from a Population.R        # Define the population data                                                              
-                                                                                                                              
-                                    population <- c(10, 12, 15, 18, 20, 22, 25, 28, 30, 32)                                   
-                                                                                                                              
-                                    # Set the sample size                                                                     
-                                                                                                                              
-                                    sample_size <- 5                                                                          
-                                                                                                                              
-                                    # Draw a random sample without replacement                                                
-                                                                                                                              
-                                    sample_without_replacement <- sample(population, sample_size, replace = FALSE)            
-                                                                                                                              
-                                    # Draw a random sample with replacement                                                   
-                                                                                                                              
-                                    sample_with_replacement <- sample(population, sample_size, replace = TRUE)                
-                                                                                                                              
-                                    # Print the Sample                                                                        
-                                                                                                                              
-                                    cat("Population Sample wihout replacement:- ", sample_without_replacement)                
-                                                                                                                              
-                                    cat("Population Smaple with replacement:- ", sample_with_replacement)                     
-                                                                                                                                                                           
-  Sort a Vector.R                   a<- c(20, 36, 45, 54, 27)                                                                 
-                                    b<- sort(a)                                                                               
-                                    print(b)                                                                                  
-                                                                                                                              
-                                    c<-sort(a, decreasing= TRUE)                                                              
-                                    print(c)                                                                                  
-                                                                                                                                                                           
-  Sum, Mean and Product of the Vec  a<- c(12, 14, 16, 17)                                                                     
-                                    b<- c(19, 18, 15, 13)                                                                     
-                                                                                                                              
-                                    # Sum of Vectors                                                                          
-                                                                                                                              
-                                    c<- sum(a)                                                                                
-                                    d<- sum(b)                                                                                
-                                                                                                                              
-                                    cat(" Sum of a is:- ", c)                                                                 
-                                    cat(" Sum of b is:- ",d)                                                                  
-                                                                                                                              
-                                    # Mean of Vectors                                                                         
-                                                                                                                              
-                                    g<- mean(a)                                                                               
-                                    h<- mean(b)                                                                               
-                                                                                                                              
-                                    cat("Mean of a is:- ", g)                                                                 
-                                    cat("Mean of b is:- ", h)                                                                 
-                                                                                                                              
-                                    # Product of Vectors                                                                      
-                                                                                                                              
-                                    i<- prod(a)                                                                               
-                                    j<- prod(b)                                                                               
-                                                                                                                              
-                                    cat("Product of a is:- ", i)                                                              
-                                    cat("Product of b is:- ", j)                                                              
-                                                                                                                                                                           
-  Take Input From the User.R        # To Take Input from User                                                                 
-                                                                                                                              
-                                    a<- readline("Enter Name:- ")                                                             
-                                    print(paste("Hi",a))                                                                      
-                                                                                                                              
-                                    b<-readline("Enter Age:- ")                                                               
-                                    cat("Your age is",b)                                                                      
-                                                                                                                              
-                                    c<-scan()                                                                                 
-                                    print(c)                                                                                  
-                                                                                                                              
-                                    a=7/3                                                                                     
-                                    print(a, digit= 4)                                                                        
-                                                                                                                              
-                                    x <- matrix(c(2, NA, 5, NA, 8, NA, 22, 67, 43),                                           
-                                                nrow = 3, byrow = TRUE)                                                       
-                                                                                                                              
-                                    # na.print: indicates NA values output format                                             
-                                                                                                                              
-                                    print(x, na.print = "")                                                                   
+                                                                
+1. README
+
+                                                                
+  README.md                         # R-Programs
+                                     R is a powerful and versatile programming language that is widely used for statistical
+                                    computing, data analysis and visualization. It provides a comprehensive set of tools and
+                                    libraries for handling various data types, performing complex calculations and creating
+                                    informative graphs. R's popularity stems from its flexibility, ease of use and extensive
+                                    community support. This Reposi
+                                                                
+2. CONTENTS
+
+                                                                
+  Add Two Vectors.R                 a<- c(10, 19, 12, 15)
+                                                                
+  Check Prime Number.R              is_prime <- function(num) {
+                                                                
+  Find the Factorial of a Number.R  a<- as.integer(readline("Enter the number:- "))
+                                                                
+  Find the Minimum and Maximum.R    a<- c(12, 27, 49, 57, 78)
+                                                                
+  Generate Random Numbers from Sta  r<- rnorm(5)
+                                                                
+  Multiplication Table.R            a<- as.integer(readline("Enter the Number:- "))
+                                                                
+  README.md                         # R-Programs
+                                                                
+  Sample from a Population.R        # Define the population data
+                                                                
+  Sort a Vector.R                   a<- c(20, 36, 45, 54, 27)
+                                                                
+  Sum, Mean and Product of the Vec  a<- c(12, 14, 16, 17)
+                                                                
+  Take Input From the User.R        # To Take Input from User
+                                                                
+3. PAGES
+
+                                                                
+  Add Two Vectors.R                 a<- c(10, 19, 12, 15)
+                                    b<- c(16, 17, 19, 21)
+                                    c= a+b
+                                    print(c)
+                                                                
+  Check Prime Number.R              is_prime <- function(num) {
+                                      if (num <= 1) {
+                                        return(FALSE)  # Numbers less than or equal to 1 are not prime
+                                      }
+                                      if (num <= 3) {
+                                        return(TRUE)   # 2 and 3 are prime numbers
+                                      }
+                                      if (num %% 2 == 0 || num %% 3 == 0) {
+                                        return(FALSE)  # Numbers divisible by 2 or 3 are not prime
+
+                                      }
+                                      i <- 5
+                                      while (i * i <= num) {
+                                        if (num %% i == 0 || num %% (i + 2) == 0) {
+                                          return(FALSE)
+                                        }
+                                        i <- i + 6
+                                      }
+                                      return(TRUE)
+                                    }
+
+                                    # Get user input
+                                    num <- as.integer(readline(prompt = "Enter a number: "))
+
+                                    # Check if the number is prime
+                                    if (is_prime(num)) {
+                                      print(paste(num, "is a prime number."))
+                                    } else {
+                                      print(paste(num, "is not a prime number."))
+
+                                    }
+                                                                
+  Find the Factorial of a Number.R  a<- as.integer(readline("Enter the number:- "))
+                                    b<- 1L
+                                    for (i in 2:a)
+                                    {
+                                      b=i*b
+                                    }
+                                    print(b)
+                                                                
+  Find the Minimum and Maximum.R    a<- c(12, 27, 49, 57, 78)
+                                    print(max(a))
+                                    print(min(a))
+                                                                
+  Generate Random Numbers from Sta  r<- rnorm(5)
+                                    print(r)
+
+                                    set.seed(12)
+                                    r<- rnorm(100)
+                                    print(r)
+                                                                
+  Multiplication Table.R            a<- as.integer(readline("Enter the Number:- "))
+                                    for(i in 1:10)
+                                    {
+                                      cat(a, "x", i, "=", a*i,"\n")
+                                    }
+
+                                    # Define the size of the multiplication table
+                                    n <- 10
+
+                                    # Create a matrix to store the multiplication table
+                                    multiplication_table <- matrix(1:(n^2), nrow = n, ncol = n)
+
+                                    # Print the multiplication table
+                                    print(multiplication_table)
+                                                                
+  README.md                         # R-Programs
+                                     R is a powerful and versatile programming language that is widely used for statistical
+                                    computing, data analysis and visualization. It provides a comprehensive set of tools and
+                                    libraries for handling various data types, performing complex calculations and creating
+                                    informative graphs. R's popularity stems from its flexibility, ease of use and extensive
+                                    community support. This Reposi
+                                                                
+  Sample from a Population.R        # Define the population data
+
+                                    population <- c(10, 12, 15, 18, 20, 22, 25, 28, 30, 32)
+
+                                    # Set the sample size
+
+                                    sample_size <- 5
+
+                                    # Draw a random sample without replacement
+
+                                    sample_without_replacement <- sample(population, sample_size, replace = FALSE)
+
+                                    # Draw a random sample with replacement
+
+                                    sample_with_replacement <- sample(population, sample_size, replace = TRUE)
+
+                                    # Print the Sample
+
+                                    cat("Population Sample wihout replacement:- ", sample_without_replacement)
+
+                                    cat("Population Smaple with replacement:- ", sample_with_replacement)
+                                                                
+  Sort a Vector.R                   a<- c(20, 36, 45, 54, 27)
+                                    b<- sort(a)
+                                    print(b)
+
+                                    c<-sort(a, decreasing= TRUE)
+                                    print(c)
+                                                                
+  Sum, Mean and Product of the Vec  a<- c(12, 14, 16, 17)
+                                    b<- c(19, 18, 15, 13)
+
+                                    # Sum of Vectors
+
+                                    c<- sum(a)
+                                    d<- sum(b)
+
+                                    cat(" Sum of a is:- ", c)
+                                    cat(" Sum of b is:- ",d)
+
+                                    # Mean of Vectors
+
+                                    g<- mean(a)
+                                    h<- mean(b)
+
+                                    cat("Mean of a is:- ", g)
+                                    cat("Mean of b is:- ", h)
+
+                                    # Product of Vectors
+
+                                    i<- prod(a)
+                                    j<- prod(b)
+
+                                    cat("Product of a is:- ", i)
+                                    cat("Product of b is:- ", j)
+                                                                
+  Take Input From the User.R        # To Take Input from User
+
+                                    a<- readline("Enter Name:- ")
+                                    print(paste("Hi",a))
+
+                                    b<-readline("Enter Age:- ")
+                                    cat("Your age is",b)
+
+                                    c<-scan()
+                                    print(c)
+
+                                    a=7/3
+                                    print(a, digit= 4)
+
+                                    x <- matrix(c(2, NA, 5, NA, 8, NA, 22, 67, 43),
+                                                nrow = 3, byrow = TRUE)
+
+                                    # na.print: indicates NA values output format
+
+                                    print(x, na.print = "")
