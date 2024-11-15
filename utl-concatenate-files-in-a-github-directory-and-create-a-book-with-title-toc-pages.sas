@@ -3,6 +3,7 @@
 %stop_submission;
 
 Concatenate files in a github directory and create a book with title toc pages
+You need to compile macro on end
 
 R and PYTHON mini Intro 'books' from github https://github.com/SaurabhSSB repositories
 
@@ -215,6 +216,9 @@ utl_dirx macro on end and in repo below
 |_|
 */
 
+/*--- USE MACRO WRAPPER IN SECTION 2     ----*/
+/*--- SECTION 1 JUST FOR EXPERIMENTATION ----*/
+
 /*--- CREATE ARRAYS                       ---*/
 
 %array(_drs,data=py_master,var=filename);
@@ -307,6 +311,7 @@ run;quit;
 proc printto;
 run;quit;
 
+
 /**************************************************************************************************************************/
 /*                                                                                                                        */
 /*   FYLS                              FYL                                                                                */
@@ -380,6 +385,7 @@ run;quit;
 |_____| |___/\__,_|___/ |_| |_| |_|\__,_|\___|_|  \___/   \_/\_/ |_|  \__,_| .__/| .__/ \___|_|
                                                                            |_|   |_|
 */
+
 %macro utl_book(dirz=,tblz=,book=);
 
    /*---
@@ -441,6 +447,8 @@ run;quit;
      if strip(fyls)='.RData' then delete;
      if strip(fyls)='.gitattributes' then delete;
      if strip(fyl)="'''" then fyl=scan(fyls,2,'.');
+     fyls=trim(fyls);
+     fyl=trim(fyl);
    run;quit;
 
    /*-- FINISH BOOT INTO d:/txt/book.txt     ---*/
@@ -473,6 +481,14 @@ run;quit;
 
    %arraydelete(_drs);
    %arraydelete(_num);
+
+   data _null_;
+     infile "&book" sharebuffers;
+     file "&book";
+     input;
+     _infile_= trim(_infile_);
+     put _infile_;
+   run;
 
 %mend utl_book;
 
@@ -515,3 +531,4 @@ run;quit;
  \___|_| |_|\__,_|
 
 */
+
